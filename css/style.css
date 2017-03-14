@@ -58,9 +58,11 @@ footer.page-footer {
   z-index: 996;
 }
 
-#projects{
-  overflow: hidden;
-}
+/*-----Projects-----*/
 #project{
   border-bottom: 1px solid;
+}
+
+body {
+  font-family: 'Lato';
 }
