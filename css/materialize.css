@@ -4304,6 +4304,24 @@ h1 {
   margin: 2.1rem 0 1.68rem 0;
 }
 
+@media only screen and (min-width: 0) {
+  h1 {
+    font-size: 3.65rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 4.0rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 4.2rem;
+  }
+}
+
 h2 {
   font-size: 3.56rem;
   line-height: 110%;
