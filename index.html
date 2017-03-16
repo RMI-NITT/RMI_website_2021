@@ -364,8 +364,13 @@
   }
 
     });
-
+  var width = parseInt($(window).width())
+  if (width<600)
+  {
+  $('h1').css({ 'fontSize': (width*0.0102) +'rem'});
+}
     </script>
+
 
   </body>
 </html>
