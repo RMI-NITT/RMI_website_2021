@@ -186,32 +186,35 @@ body {
   width: 3rem;
   z-index: 10;
 }
-.icon-button .icon-twitter {
+.icon-button .fa-twitter {
   color: #4099ff;
 }
-.icon-button .icon-facebook {
+.icon-button .fa-facebook{
   color: #3B5998;
 }
-.icon-button .icon-google-plus {
+.icon-button .fa-google-plus {
   color: #db5a3c;
 }
-.icon-button .icon-github {
+.icon-button .fa-github {
   color: #000000;
 }
-.icon-button .icon-linkedin {
+.icon-button .fa-linkedin {
   color: #007bb6;
 }
-.icon-button .icon-envelope-alt {
+.icon-button .fa-envelope {
   color: #db5a3c;
 }
 
-.icon-button:hover .icon-twitter,
-.icon-button:hover .icon-facebook,
-.icon-button:hover .icon-github,
-.icon-button:hover .icon-linkedin,
-.icon-button:hover .icon-envelope-alt,
-.icon-button:hover .icon-google-plus {
+.icon-button:hover .fa-twitter,
+.icon-button:hover .fa-facebook,
+.icon-button:hover .fa-github,
+.icon-button:hover .fa-linkedin,
+.icon-button:hover .fa-envelope,
+.icon-button:hover .fa-google-plus {
   color: white;
 }
 
-
+.reveal .fa {
+  font-family: 'FontAwesome';
+  font-style: normal;
+}
