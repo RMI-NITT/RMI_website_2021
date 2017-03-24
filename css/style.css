@@ -214,3 +214,8 @@ body {
   color: white;
 }
 
+/*profile cards*/
+.back .container {
+    width: 100%;
+}
+
