@@ -89,8 +89,12 @@
             <div class="swiper-slide"><div class="col s12 l4 m6">
           <div class="card">
             <div class="card-image">
-              <img src="images/sab.jpg">
-              <span class="card-title">Project 1</span >
+              <div class="video">
+              <video class="thevideo" loop muted>
+                  <source src="videos/3d_printer.mp4" type="video/mp4">
+                </video>
+            </div>
+              <span class="card-title">3D Printer</span >
             </div>
             <div class="card-content">
               <p>I am a very simple card. I am good at containing small bits of information.
@@ -104,8 +108,12 @@
             <div class="swiper-slide"><div class="col s12 l4 m6">
           <div class="card">
             <div class="card-image">
-              <img src="images/sab.jpg">
-              <span class="card-title">Project 1</span >
+              <div class="video">
+              <video class="thevideo" loop muted>
+                  <source src="videos/Air_hockey.mp4" type="video/mp4">
+                </video>
+            </div>
+              <span class="card-title">Air Hockey</span >
             </div>
             <div class="card-content">
               <p>I am a very simple card. I am good at containing small bits of information.
@@ -119,8 +127,12 @@
             <div class="swiper-slide"><div class="col s12 l4 m6">
           <div class="card">
             <div class="card-image">
-              <img src="images/sab.jpg">
-              <span class="card-title">Project 1</span >
+              <div class="video">
+              <video class="thevideo" loop muted>
+                  <source src="videos/EXOs.mp4" type="video/mp4">
+                </video>
+            </div>
+              <span class="card-title">EXOS</span >
             </div>
             <div class="card-content">
               <p>I am a very simple card. I am good at containing small bits of information.
@@ -134,8 +146,12 @@
             <div class="swiper-slide"><div class="col s12 l4 m6">
           <div class="card">
             <div class="card-image">
-              <img src="images/sab.jpg">
-              <span class="card-title">Project 1</span >
+             <div class="video">
+              <video class="thevideo" loop muted>
+                  <source src="videos/Elbot.mp4" type="video/mp4">
+                </video>
+            </div>
+              <span class="card-title">Elbot</span >
             </div>
             <div class="card-content">
               <p>I am a very simple card. I am good at containing small bits of information.
@@ -149,8 +165,12 @@
             <div class="swiper-slide"><div class="col s12 l4 m6">
           <div class="card">
             <div class="card-image">
-              <img src="images/sab.jpg">
-              <span class="card-title">Project 1</span >
+              <div class="video">
+              <video class="thevideo" loop muted>
+                  <source src="videos/MOM.mp4" type="video/mp4">
+                </video>
+            </div>
+              <span class="card-title">Mind Over Matter</span >
             </div>
             <div class="card-content">
               <p>I am a very simple card. I am good at containing small bits of information.
@@ -164,8 +184,12 @@
             <div class="swiper-slide"><div class="col s12 l4 m6">
           <div class="card">
             <div class="card-image">
-              <img src="images/sab.jpg">
-              <span class="card-title">Project 1</span >
+              <div class="video">
+              <video class="thevideo" loop muted>
+                  <source src="videos/MRDP.mp4" type="video/mp4">
+                </video>
+            </div>
+              <span class="card-title">Project Pepper</span >
             </div>
             <div class="card-content">
               <p>I am a very simple card. I am good at containing small bits of information.
@@ -179,8 +203,12 @@
             <div class="swiper-slide"><div class="col s12 l4 m6">
           <div class="card">
             <div class="card-image">
-              <img src="images/sab.jpg">
-              <span class="card-title">Project 1</span >
+              <div class="video">
+              <video class="thevideo" loop muted>
+                  <source src="videos/Quad.mp4" type="video/mp4">
+                </video>
+            </div>
+              <span class="card-title">QuadCopter</span >
             </div>
             <div class="card-content">
               <p>I am a very simple card. I am good at containing small bits of information.
@@ -194,8 +222,12 @@
             <div class="swiper-slide"><div class="col s12 l4 m6">
           <div class="card">
             <div class="card-image">
-              <img src="images/sab.jpg">
-              <span class="card-title">Project 1</span >
+              <div class="video">
+              <video class="thevideo" loop muted>
+                  <source src="videos/Slathex.mp4" type="video/mp4">
+                </video>
+            </div>
+              <span class="card-title">SLAT-HEX</span >
             </div>
             <div class="card-content">
               <p>I am a very simple card. I am good at containing small bits of information.
@@ -209,8 +241,8 @@
             <div class="swiper-slide"><div class="col s12 l4 m6">
           <div class="card">
             <div class="card-image">
-              <img src="images/sab.jpg">
-              <span class="card-title">Project 1</span >
+              <img src="images/proj8.jpg">
+              <span class="card-title">Soccer Robots</span >
             </div>
             <div class="card-content">
               <p>I am a very simple card. I am good at containing small bits of information.
@@ -369,6 +401,18 @@
   if (width<600)
   {
   $('h1').css({ 'fontSize': (width*0.0102) +'rem'});
+}
+    </script>
+    <script type="text/javascript">
+      
+      var figure = $(".video").hover( hoverVideo, hideVideo );
+
+function hoverVideo(e) {  
+    $('video', this).get(0).play(); 
+}
+
+function hideVideo(e) {
+    $('video', this).get(0).pause(); 
 }
     </script>
 
