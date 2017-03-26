@@ -18,6 +18,7 @@
         
  <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet prerender" type="text/css" />
  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
 </head>
 <body>
 <div class="navbar-fixed">
@@ -60,14 +61,15 @@
     </ul>
   </div>
 
-  <ul id="tabs-swipe-demo" class="tabs center">
-    <li class="tab col s4"><a class="active" href="#final-years">Final Years</a></li>
-    <li class="tab col s4"><a  href="#third-years">Third Years</a></li>
-    <li class="tab col s4"><a href="#second-years">Second Years</a></li>
+  <ul id="tabs-swipe-demo" style= " position: fixed;
+    z-index: 200;" class="tabs center">
+    <li class="tab col s4"><a id="1" class="active" href="#final-years">Final Years</a></li>
+    <li class="tab col s4"><a id="2" href="#third-years">Third Years</a></li>
+    <li class="tab col s4"><a id= "3" href="#second-years">Second Years</a></li>
   </ul>
 
 <!--Member Cards -->
- <div id ="final-years" class="container">
+ <div id ="final-years" style="padding-top: 4rem;" class="container">
     <div class="section">
 
       <!--   Icon Section   -->
@@ -116,7 +118,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/Sarada.jpg"/>
@@ -156,16 +158,16 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
-                            <img class="circle" src="images/user.png"/>
+                            <img class="circle" src="images/sidhaarth.jpg"/>
                         </div>
                         <div class="content">
                             <div class="main">
-                                <h3 class="name">Sidhaarth Murugan</h3>
+                                <h3 class="name">M Sidhaarth</h3>
                                 <p class="profession">Vice President- Events</p>
-                                <p class="text-center">Computer Architecture<br>Machine Learning<br>Image Processing</p>
+                                <p class="text-center">RF IC Design<br>Analog CMOS IC Design<br>Digital Signal Processing<br>Embedded Systems</p>
                             </div>
                         </div>
                     </div> <!-- end front panel -->
@@ -174,7 +176,7 @@
                         <div class="content center">
                             <div class="main ">
                                 <h4 class="center">Projects</h4>
-                                <p class="center">Smart Cycle<br>The Object Retriever Device<br></p>
+                                <p class="center">Rectifier based design for RF<br>Folded Cascode Operational Amplifier<br>Electrooculogram Signal Processing<br>SYCLE – The Smart Cycle</p>
                                 <a href="" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
                                 <a href="" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
                                 <a href="" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
@@ -198,7 +200,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/prakash.jpg"/>
@@ -238,7 +240,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/Adarsh.jpg"/>
@@ -278,7 +280,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/G.jpg"/>
@@ -325,7 +327,7 @@
     </div>
   </div>
 
-   <div id ="third-years" class="container">
+   <div id ="third-years" style="padding-top: 4rem;" class="container">
     <div class="section">
 
       <!--   Icon Section   -->
@@ -335,7 +337,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/user.png"/>
@@ -376,7 +378,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/user.png"/>
@@ -417,7 +419,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/Bala.jpg"/>
@@ -462,7 +464,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/Harish.jpg"/>
@@ -504,7 +506,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/naveed.jpg"/>
@@ -544,7 +546,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/user.png"/>
@@ -585,7 +587,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/Nand.jpg"/>
@@ -626,7 +628,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/Nithin.jpg"/>
@@ -667,7 +669,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/Ruthz.jpg"/>
@@ -717,7 +719,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/sundaravalli.jpg"/>
@@ -758,7 +760,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/user.png"/>
@@ -801,7 +803,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/Venkat.jpg"/>
@@ -810,7 +812,7 @@
                             <div class="main">
                                 <h3 class="name">Venkata Subramanian S</h3>
                                 <p class="profession">Member</p>
-                                <p class="text-center">Pattern Recognition<br>Statistical Signal Processing<br>Deep Learning<br>Rehabilitation robotics</p>
+                                <p class="text-center">Swarm Robotics<br>Game Theory<br>Deep Learning<br>Neural Networks</p>
                             </div>
                         </div>
                     </div> <!-- end front panel -->
@@ -844,7 +846,7 @@
      
 
 
-      <div id ="second-years" class="container">
+      <div id ="second-years" style="padding-top: 4rem;" class="container">
     <div class="section">
 
       <!--   Icon Section   -->
@@ -853,7 +855,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/Anand.jpg"/>
@@ -895,7 +897,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/user.png"/>
@@ -935,7 +937,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/Subhechha.jpg"/>
@@ -977,7 +979,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/user.png"/>
@@ -1017,7 +1019,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/Madhan.jpg"/>
@@ -1026,7 +1028,7 @@
                             <div class="main">
                                 <h3 class="name">Madhan S</h3>
                                 <p class="profession">Member</p>
-                                <p class="text-center">.Electronics<br>Control systems<br>Machine Learning<br>Signal Processing</p>
+                                <p class="text-center">.Electronics<br>Control systems<br>Machine Learning<br>Embedded Systems</p>
                             </div>
                         </div>
                     </div> <!-- end front panel -->
@@ -1058,7 +1060,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/Nikhil.jpg"/>
@@ -1100,7 +1102,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/user.png"/>
@@ -1141,7 +1143,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/Venkatesh.jpg"/>
@@ -1183,7 +1185,7 @@
                 <div class="card" onclick="rotateCard(this)">
                     <div class="front">
                         <div class="cover">
-                            <img src="background2.jpg"/>
+                            <img src="background3.jpg"/>
                         </div>
                         <div class="user">
                             <img class="circle" src="images/user.png"/>
@@ -1230,6 +1232,9 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+
+<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+
 
   <!-- Swiper JS -->
     <script src="js/swiper.min.js"></script>
@@ -1295,6 +1300,59 @@
         }
     }
 </script>
+
+<!--
+
+<script type="text/javascript">
+    //$('#tabs-swipe-demo').tabs({ 'swipeable': true });
+        $(function() {      
+      //Enable swiping...
+      $("#final-years").swipe( {
+        //Generic swipe handler for all directions
+        swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+          if (direction == 'left')
+          {
+               $('#tabs-swipe-demo').tabs('select_tab', 'third-years');
+          }
+             },
+        //Default is 75px, set to 0 for demo so any distance triggers swipe
+         threshold:0
+      });
+
+           $("#third-years").swipe( {
+        //Generic swipe handler for all directions
+        swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+          if (direction == 'left')
+          {
+          $('#tabs-swipe-demo').tabs('select_tab', 'second-years');
+          }
+          else if(direction == 'right')
+          {
+             $('#tabs-swipe-demo').tabs('select_tab', 'final-years');
+          }  
+        },
+        //Default is 75px, set to 0 for demo so any distance triggers swipe
+         threshold:0
+      });
+
+             $("#second-years").swipe( {
+        //Generic swipe handler for all directions
+        swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+             if(direction == 'right')
+          {
+              $('#tabs-swipe-demo').tabs('select_tab', 'third-years'); 
+          }  
+        },
+        //Default is 75px, set to 0 for demo so any distance triggers swipe
+         threshold:0
+      });
+
+    });
+    
+
+
+</script>
+-->
 
   </body>
 </html>
