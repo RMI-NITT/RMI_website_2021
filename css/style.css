@@ -70,7 +70,7 @@ body {
 /*-----Slider-----*/
    .swiper-container {
         width: 80%;
-        height: auto;   
+        height: auto;
     }
     @media only screen and (max-width : 600px) {
   .swiper-container {
@@ -219,3 +219,15 @@ body {
     width: 100%;
 }
 
+img[class="member-pics"] {
+    padding: 5px;
+    height: auto;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-width: 300px;
+    min-width: 60px;
+}
