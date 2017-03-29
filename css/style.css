@@ -76,6 +76,9 @@ body {
   .swiper-container {
         width: 90%
     }
+    #img_wrapper {
+        max-height: 10dp;
+    }
 }
     .swiper-slide {
         text-align: center;
@@ -231,4 +234,9 @@ video[class="project-video"] {
     padding: 5px;
     max-width: 450px;
     min-width: 150px;
+}
+
+#img_wrapper {
+    max-height: 5px;
+    height: 5px;
 }
