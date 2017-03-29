@@ -42,6 +42,30 @@ p {
   #index-banner .section {
     top: 0;
   }
+    .card-image .video .thevideo {
+        width: 100%;
+        padding: 20px;
+        max-height: 180px;
+        width: auto;
+        max-width: 350px;
+    }
+
+    #div_vid_wrp {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    #div_vid_wrp {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .thevideo {
+        max-width: 400px;
+        margin-left: -67px;
+    }
 }
 
 .icon-block {
@@ -68,19 +92,18 @@ body {
 }
 
 /*-----Slider-----*/
-   .swiper-container {
+.swiper-container {
         width: 80%;
         height: auto;
-    }
-    @media only screen and (max-width : 600px) {
-  .swiper-container {
-        width: 90%
-    }
-    #img_wrapper {
-        max-height: 10dp;
-    }
 }
-    .swiper-slide {
+
+@media only screen and (max-width : 600px) {
+        .swiper-container {
+            width: 90%
+        }
+}
+
+.swiper-slide {
         text-align: center;
         background: #fff;
 
@@ -97,7 +120,7 @@ body {
         -ms-flex-align: center;
         -webkit-align-items: center;
         align-items: center;
-    }
+}
 .card-image img:hover{
 }
 .swiper-pagination{
@@ -222,6 +245,15 @@ body {
     width: 100%;
 }
 
+/*videos*/
+
+.card-image .video .thevideo {
+    width: 100%;
+    padding: 20px;
+    max-height: 400px;
+    width: auto;
+}
+
 img[class="project-pics"] {
     padding: 5px;
     height: auto;
@@ -236,7 +268,22 @@ video[class="project-video"] {
     min-width: 150px;
 }
 
-#img_wrapper {
-    max-height: 5px;
-    height: 5px;
+#div_vid_wrp {
+    margin-left: 25%;
+    margin-right: 25%;
 }
+
+/*
+video[class="thevideo"] {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
+*/
