@@ -1,7 +1,11 @@
 (function($){
   $(function(){
 
-    $('.button-collapse').sideNav();
+    $('.button-collapse').sideNav(
+    	{
+    		closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true
+    	});
     $('.parallax').parallax();
 
   }); // end of document ready

@@ -3359,7 +3359,7 @@ nav ul a span.badge {
 
 @media only screen and (min-width: 993px) {
   .container {
-    width: 70%;
+    width: 80%;
   }
 }
 
@@ -3401,7 +3401,6 @@ nav ul a span.badge {
   float: left;
   box-sizing: border-box;
   padding: 0 0.75rem;
-  min-height: 1px;
 }
 
 .row .col[class*="push-"], .row .col[class*="pull-"] {
@@ -4151,6 +4150,9 @@ nav ul a.btn > .material-icons, nav ul a.btn-large > .material-icons, nav ul a.b
 nav ul a:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
+nav ul a.brand-logo:hover  {
+  background-color: rgba(0, 0, 0, 0);
+}
 
 nav ul.left {
   float: left;
@@ -4222,7 +4224,7 @@ nav .input-field label.active i {
     line-height: 120px;
   }
   .navbar-fixed {
-    height: 64px;
+    height: 120px;
   }
 }
 @font-face {
