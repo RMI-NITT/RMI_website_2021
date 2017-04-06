@@ -116,12 +116,12 @@ body {
 /* Wrapper */
 .icon-button {
   background-color: white;
-  border-radius: 3rem;
+  border-radius: 3.5rem;
   cursor: pointer;
   display: inline-block;
-  font-size: 2.0rem;
-  height: 3rem;
-  line-height: 3rem;
+  font-size: 2.5rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
   margin: 0 5px;
   position: relative;
   text-align: center;
@@ -129,10 +129,27 @@ body {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  width: 3rem;
+  width: 3.5rem;
 }
-
+.contaner .icon-button {
+  background-color: #F4F1E0;
+  border-radius: 3.5rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2.5rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  margin: 0 5px;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: 3.5rem;
+}
 /* Circle */
+
 .icon-button span {
   border-radius: 0;
   display: block;
@@ -141,6 +158,22 @@ body {
   margin: 0;
   position: absolute;
   top: 50%;
+  
+  -webkit-transition: all 0.3s;
+     -moz-transition: all 0.3s;
+       -o-transition: all 0.3s;
+          transition: all 0.3s;
+  width: 0;
+}
+.container .icon-button span {
+  border-radius: 0;
+  display: block;
+  height: 0;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  
   -webkit-transition: all 0.3s;
      -moz-transition: all 0.3s;
        -o-transition: all 0.3s;
@@ -148,10 +181,10 @@ body {
   width: 0;
 }
 .icon-button:hover span {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 3rem;
-  margin: -1.5rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 3.5rem;
+  margin: -1.75rem;
 }
 .twitter span {
   background-color: #4099ff;
@@ -173,17 +206,16 @@ body {
 }
 /* Icons */
 .icon-button i {
-  background: none;
-  height: 3rem;
+  height: 3.5rem;
   left: 0;
-  line-height: 3rem;
+  line-height: 3.5rem;
   top: 0;
   position: relative;
   -webkit-transition: all 0.3s;
      -moz-transition: all 0.3s;
        -o-transition: all 0.3s;
           transition: all 0.3s;
-  width: 3rem;
+  width: 3.5rem;
   z-index: 10;
 }
 .icon-button .fa-twitter {
@@ -214,6 +246,7 @@ body {
   color: white;
 }
 
+
 /*profile cards*/
 .back .container {
     width: 100%;
@@ -225,4 +258,44 @@ body {
 .card-image .video .thevideo
 {
   width: 100%;
+}
+
+
+/*event descriptions*/
+
+.description p
+{
+  text-align: justify;
+}
+
+/*slider*/
+.jssorb13 
+{
+     position: absolute;
+}
+.jssorb13 div, .jssorb13 div:hover, .jssorb13 .av 
+{
+  position: absolute;
+ /* size of bullet elment */
+  width: 21px;
+  height: 21px;
+  background: url('../images/b13.png') no-repeat;
+  overflow: hidden;
+ cursor: pointer;
+}
+.jssorb13 div 
+{
+ background-position: -5px -5px; 
+}      
+.jssorb13 div:hover, .jssorb13 .av:hover 
+{ 
+  background-position: -35px -5px; 
+}
+.jssorb13 .av 
+{ 
+  background-position: -65px -5px; 
+}
+.jssorb13 .dn, .jssorb13 .dn:hover 
+{ 
+  background-position: -95px -5px; 
 }

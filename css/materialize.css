@@ -4306,6 +4306,10 @@ h1 {
   margin: 1.68rem 0 1.68rem 0;
 }
 
+#rmi-main {
+  margin: 0 0 1.68rem 0;
+}
+
 @media only screen and (min-width: 0) {
   h1 {
     font-size: 3.65rem;
@@ -7694,6 +7698,7 @@ input[type=range]:focus::-ms-fill-upper {
   position: relative;
   height: 100%;
   width: 100%;
+  margin-top: 70px;
 }
 
 .slider.fullscreen {
@@ -7761,8 +7766,10 @@ input[type=range]:focus::-ms-fill-upper {
   text-align: center;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 3rem;
   margin: 0;
+  z-index: 100;
+  opacity: 0.75;
 }
 
 .slider .indicators .indicator-item {

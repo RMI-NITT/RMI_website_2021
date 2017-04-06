@@ -12,6 +12,7 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="css/swiper.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 <div class="navbar-fixed">
@@ -87,7 +88,7 @@
   </div>
         
         <div class="row left">
-        <h1  class="header left col s12  " style="color: #414141; font-weight: bold; margin-bottom: 0;padding: 0;">ROBOTICS AND <br> MACHINE INTELLIGENCE</h1>
+        <h1  id="rmi-main" class="header left col s12  " style="color: #414141; font-weight: bold; margin-bottom: 0;padding: 0;">ROBOTICS AND <br> MACHINE INTELLIGENCE</h1>
           <h6 class="header col s12" style="color: #414141; margin-top: 0;padding: 0;"><p class="light">
         Robotics and Machine Intelligence (RMI) is a robotics and technical research club based in NIT Trichy.<br> Formed in 2005, this is a club with robotics enthusiasts from all departments of the college.<br> The prime focus of the club is on technical projects and competitions.
       </p></h6  >
@@ -310,11 +311,53 @@
         </div>
         <div id="genesis" class="modal modal-fixed-footer">
     <div class="modal-content">
-      <h4>Modal Header</h4>
-      <p>A bunch of text</p>
+
+      <h4>GENESIS</h4>
+      <div class="container">
+    <div class="section">
+      <div class="row center">
+    <div class="col s12 m12 l8 description">
+      <p>
+        The Air hockey project is basically an autonomous air hockey platform involving a serial manipulator that can play air hockey with a human competitor.</p>
+        <p> 
+The autonomous air hockey platform involves design and fabrication of an air hockey table and a 2 link serial manipulator to control the mallet. The table consists of 2 levels, the lower one to host the blower fans and the upper one acts as the table surface to play the game
+The location and movement of the puck is perceived using image processing algorithms from the real time video feedback from a camera placed above the table. Based on the obtained values, the precise trajectory of the puck is found. Based on the calculated position at the given time, the motors actuating the links are given predetermined angles and speeds using inverse kinematics algorithms. Thus, the end effector hits the puck with the required force.</p>
+<p>
+The future prospects include using machine learning algorithms to improve tracking of the puck in diverse conditions and to reduce the error in trajectory calculations and inverse kinematics algorithms and faster response times. 
+
+      </p>
+    </div>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:500px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('images/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:500px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="background1.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="background2.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="background3.jpg" />
+            </div>
+           
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb13" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:21px;height:21px;"></div>
+        </div>
+    </div>
+
+      </div>       
+      </div>
+      </div>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
     </div>
   </div>
 
@@ -339,7 +382,7 @@
       <p>A bunch of text</p>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
     </div>
   </div>
 
@@ -365,7 +408,7 @@
       <p>A bunch of text</p>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
     </div>
   </div>
        
@@ -379,11 +422,15 @@
     <div class="section no-pad-bot">
       <div class="container">
         
-        <div class="row center">
+        <div class="row center" id="contact-page">
         <h1 id = "Contact" class="header center col s12  " style="color: #414141; font-weight: bold;">SAY HELLO TO US !</h1>
-          <h6 class="header col s12 light" style="color: #414141"><p>Sesame snaps bonbon apple pie jelly-o oat cake lemon drops tootsie roll. <br>Jelly fruitcake jelly-o gummi bears powder. Chupa chups candy cookie muffin bonbon donut.<br> Danish cake lemon drops carrot cake. <br>Tootsie roll bear claw oat cake sweet. <br>Cake pudding ice cream</p>
+          <h6 class="header col s12 light" style="color: #414141; font-size: 28px;"><p>Let's stay in touch<br>Send us your queries and valuble feedback, for us to improve</p>
 
 </h6>
+ <a href="" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+ <a href="" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+ <a href="" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+ <a href="" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
         </div>
       </div>
     </div>
@@ -399,7 +446,7 @@
   <script>
    $(document).ready(function () {
        $('.slider').slider({
-        indicators: false,
+    indicators: true,
     height: $(window).height() * 0.25,
     full_width: false,
     interval:5000,
@@ -461,7 +508,67 @@ function hideVideo(e) {
 }
     </script>
 
+<!--Image Slider -->
 
+<script src="js/jssor.slider-23.0.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:1200,$Zoom:11,$Rotate:-1,$Easing:{$Zoom:$Jease$.$InQuad,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuad},$Opacity:2,$Round:{$Rotate:0.5},$Brother:{$Duration:1200,$Zoom:1,$Rotate:1,$Easing:$Jease$.$Swing,$Opacity:2,$Round:{$Rotate:0.5},$Shift:90}},
+              {$Duration:1400,x:0.25,$Zoom:1.5,$Easing:{$Left:$Jease$.$InWave,$Zoom:$Jease$.$InSine},$Opacity:2,$ZIndex:-10,$Brother:{$Duration:1400,x:-0.25,$Zoom:1.5,$Easing:{$Left:$Jease$.$InWave,$Zoom:$Jease$.$InSine},$Opacity:2,$ZIndex:-10}},
+              {$Duration:1200,$Zoom:11,$Rotate:1,$Easing:{$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuad},$Opacity:2,$Round:{$Rotate:1},$ZIndex:-10,$Brother:{$Duration:1200,$Zoom:11,$Rotate:-1,$Easing:{$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuad},$Opacity:2,$Round:{$Rotate:1},$ZIndex:-10,$Shift:600}},
+              {$Duration:1500,x:0.5,$Cols:2,$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InOutCubic},$Opacity:2,$Brother:{$Duration:1500,$Opacity:2}},
+              {$Duration:1500,x:-0.3,y:0.5,$Zoom:1,$Rotate:0.1,$During:{$Left:[0.6,0.4],$Top:[0.6,0.4],$Rotate:[0.6,0.4],$Zoom:[0.6,0.4]},$Easing:{$Left:$Jease$.$InQuad,$Top:$Jease$.$InQuad,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuad},$Opacity:2,$Brother:{$Duration:1000,$Zoom:11,$Rotate:-0.5,$Easing:{$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuad},$Opacity:2,$Shift:200}},
+              {$Duration:1500,$Zoom:11,$Rotate:0.5,$During:{$Left:[0.4,0.6],$Top:[0.4,0.6],$Rotate:[0.4,0.6],$Zoom:[0.4,0.6]},$Easing:{$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuad},$Opacity:2,$Brother:{$Duration:1000,$Zoom:1,$Rotate:-0.5,$Easing:{$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuad},$Opacity:2,$Shift:200}},
+              {$Duration:1500,x:0.3,$During:{$Left:[0.6,0.4]},$Easing:{$Left:$Jease$.$InQuad,$Opacity:$Jease$.$Linear},$Opacity:2,$Outside:true,$Brother:{$Duration:1000,x:-0.3,$Easing:{$Left:$Jease$.$InQuad,$Opacity:$Jease$.$Linear},$Opacity:2}},
+              {$Duration:1200,x:0.25,y:0.5,$Rotate:-0.1,$Easing:{$Left:$Jease$.$InQuad,$Top:$Jease$.$InQuad,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuad},$Opacity:2,$Brother:{$Duration:1200,x:-0.1,y:-0.7,$Rotate:0.1,$Easing:{$Left:$Jease$.$InQuad,$Top:$Jease$.$InQuad,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuad},$Opacity:2}},
+              {$Duration:1600,x:1,$Rows:2,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InOutQuart,$Opacity:$Jease$.$Linear},$Opacity:2,$Brother:{$Duration:1600,x:-1,$Rows:2,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InOutQuart,$Opacity:$Jease$.$Linear},$Opacity:2}},
+              {$Duration:1600,x:1,$Rows:2,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InOutQuart,$Opacity:$Jease$.$Linear},$Opacity:2,$Brother:{$Duration:1600,x:-1,$Rows:2,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InOutQuart,$Opacity:$Jease$.$Linear},$Opacity:2}},
+              {$Duration:1600,y:-1,$Cols:2,$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InOutQuart,$Opacity:$Jease$.$Linear},$Opacity:2,$Brother:{$Duration:1600,y:1,$Cols:2,$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InOutQuart,$Opacity:$Jease$.$Linear},$Opacity:2}},
+              {$Duration:1200,y:1,$Easing:{$Top:$Jease$.$InOutQuart,$Opacity:$Jease$.$Linear},$Opacity:2,$Brother:{$Duration:1200,y:-1,$Easing:{$Top:$Jease$.$InOutQuart,$Opacity:$Jease$.$Linear},$Opacity:2}},
+              {$Duration:1200,x:1,$Easing:{$Left:$Jease$.$InOutQuart,$Opacity:$Jease$.$Linear},$Opacity:2,$Brother:{$Duration:1200,x:-1,$Easing:{$Left:$Jease$.$InOutQuart,$Opacity:$Jease$.$Linear},$Opacity:2}},
+              {$Duration:1200,y:-1,$Easing:{$Top:$Jease$.$InOutQuart,$Opacity:$Jease$.$Linear},$Opacity:2,$ZIndex:-10,$Brother:{$Duration:1200,y:-1,$Easing:{$Top:$Jease$.$InOutQuart,$Opacity:$Jease$.$Linear},$Opacity:2,$ZIndex:-10,$Shift:-100}},
+              {$Duration:1200,x:1,$Delay:40,$Cols:6,$Formation:$JssorSlideshowFormations$.$FormationStraight,$Easing:{$Left:$Jease$.$InOutQuart,$Opacity:$Jease$.$Linear},$Opacity:2,$ZIndex:-10,$Brother:{$Duration:1200,x:1,$Delay:40,$Cols:6,$Formation:$JssorSlideshowFormations$.$FormationStraight,$Easing:{$Top:$Jease$.$InOutQuart,$Opacity:$Jease$.$Linear},$Opacity:2,$ZIndex:-10,$Shift:-100}},
+              {$Duration:1500,x:-0.1,y:-0.7,$Rotate:0.1,$During:{$Left:[0.6,0.4],$Top:[0.6,0.4],$Rotate:[0.6,0.4]},$Easing:{$Left:$Jease$.$InQuad,$Top:$Jease$.$InQuad,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuad},$Opacity:2,$Brother:{$Duration:1000,x:0.2,y:0.5,$Rotate:-0.1,$Easing:{$Left:$Jease$.$InQuad,$Top:$Jease$.$InQuad,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuad},$Opacity:2}},
+              {$Duration:1600,x:-0.2,$Delay:40,$Cols:12,$During:{$Left:[0.4,0.6]},$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationStraight,$Assembly:260,$Easing:{$Left:$Jease$.$InOutExpo,$Opacity:$Jease$.$InOutQuad},$Opacity:2,$Outside:true,$Round:{$Top:0.5},$Brother:{$Duration:1000,x:0.2,$Delay:40,$Cols:12,$Formation:$JssorSlideshowFormations$.$FormationStraight,$Assembly:1028,$Easing:{$Left:$Jease$.$InOutExpo,$Opacity:$Jease$.$InOutQuad},$Opacity:2,$Round:{$Top:0.5}}}
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $FillMode: 5,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 600);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*responsive code end*/
+        };
+    </script>
+ <script type="text/javascript">jssor_1_slider_init();</script>
   </body>
 </html>
 
