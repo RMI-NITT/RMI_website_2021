@@ -141,10 +141,11 @@
         </div>
     </div>
     <div class="col s12 l4 m6 center" id="video_wrapper">
-        <!--<iframe width="420" height="315" src="https://www.youtube.com/embed/3o3yqhdsFg0?loop=1&controls=0"></iframe>-->
-        <div class="video" id="player">
+        <!-- <iframe width="420" height="315" src="https://www.youtube.com/embed/3o3yqhdsFg0?loop=1&controls=0"></iframe> -->
+        <div id="muteYouTubeVideoPlayer"></div>
+        <!--<div class="video" id="player">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/3o3yqhdsFg0?loop=1&controls=0" frameborder="0" allowfullscreen></iframe>
-        </div>
+        </div> -->
     </div>
 
     <!-- Member working on the project -->
@@ -192,7 +193,7 @@
     </div>
 
     <div class="members">
-        
+
     </div>
 
     <!-- Floating action button -->
@@ -260,7 +261,7 @@
             });
         }
     </script>
-
+    <!--
     <script>
         // 1. This code loads the IFrame Player API code asynchronously.
         var tag = document.createElement('script');
@@ -308,6 +309,50 @@
 
         function stopVideo() {
             player.stopVideo();
+        }
+    </script>
+-->
+    <script async src="https://www.youtube.com/iframe_api"></script>
+    <script>
+        function onYouTubeIframeAPIReady() {
+            var player;
+            player = new YT.Player('muteYouTubeVideoPlayer', {
+                // YouTube Video ID
+                videoId: '3o3yqhdsFg0',
+                width: 560,
+                height: 316,
+                playerVars: {
+                    autoplay: 1,
+                    controls: 1,
+                    // Hide the video title
+                    showinfo: 0,
+                    // Hide the Youtube Logo
+                    modestbranding: 1,
+                    // Run the video in a loop
+                    loop: 1,
+                    // Hide the full screen button
+                    fs: 0,
+                    cc_load_policy: 0,
+                    // Hide the Video Annotations
+                    iv_load_policy: 3,
+                    // Hide video controls when playing
+                    autohide: 0,
+                    // Hack to make the player loop over a single video again
+                    playlist: '3o3yqhdsFg0'
+                },
+                events: {
+                    onReady: function(e) {
+                        e.target.mute();
+                    },
+                    onStateChange: loopVideo
+                }
+            });
+        }
+
+        function loopVideo(event) {
+            if (event.data === YT.PlayerState.ENDED) {
+
+            }
         }
     </script>
 
