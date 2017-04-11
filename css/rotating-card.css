@@ -89,7 +89,7 @@ body {
 .card-container, .front, .back {
 	width: 100%;
     height: auto;
-	min-height: 420px;
+	min-height: 460px;
 	border-radius: 4px;
 }
 .card .cover{
@@ -117,7 +117,7 @@ body {
 .card .content{
     background-color: rgba(0, 0, 0, 0);
     box-shadow: none;
-    padding: 10px 20px 20px;
+    padding: 10px 20px 5px;
 }
 .card .content .main {
     min-height: 160px;
@@ -126,11 +126,19 @@ body {
     height: 215px;
 }
 .card .name {
-    font-size: 22px;
+    font-size: 24px;
     line-height: 28px;
     margin: 10px 0 0;
     text-align: center;
     text-transform: capitalize;
+}
+.card .interest
+{
+    font-size: 16px;
+}
+.card .profile-projects
+{
+    font-size: 16px;
 }
 .card h5{
     margin: 5px 0;
@@ -141,6 +149,7 @@ body {
     color: #999999;
     text-align: center;
     margin-bottom: 20px;
+    font-size: 18px;
 }
 .card .footer {
     border-top: 1px solid #EEEEEE;
@@ -259,6 +268,7 @@ body {
     opacity: .8;
     color: #666666;
     background-color: transparent;
+    box-shadow: none;
 }
 
 .btn-simple:hover,

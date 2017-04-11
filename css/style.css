@@ -353,3 +353,7 @@ projects swiper
   display: list-item;
   list-style-type: disc;
 }
+
+.back .footer {
+    border: none;
+}
