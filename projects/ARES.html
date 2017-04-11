@@ -131,7 +131,7 @@
     <div class="container">
         <div class="section">
             <div class="row">
-                <div class="col s12 center">
+                <div class="col s12 m12 l12 center">
                     <div class="section">
                         <h3 class="header center text-lighten-2">Videos</h3>
                     </div>
@@ -140,10 +140,13 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="video-container col s12 m6 l4 center">
-            <div id="muteYouTubeVideoPlayer"></div>
-        </div>
+       
+    <div class="col s12 l12 m12 center" id="video_wrapper">
+        <!-- <iframe width="420" height="315" src="https://www.youtube.com/embed/3o3yqhdsFg0?loop=1&controls=0"></iframe> -->
+        <div id="muteYouTubeVideoPlayer"></div>
+        <!--<div class="video" id="player">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3o3yqhdsFg0?loop=1&controls=0" frameborder="0" allowfullscreen></iframe>
+        </div> -->
     </div>
 
 
@@ -262,13 +265,28 @@
     <script>
         function onYouTubeIframeAPIReady() {
             var player;
+            if ($(window).width()<600)
+                {
+                    var width =$(window).width();
+                    var height =width*9/16;
+                }
+            if ($(window).width()<992)
+                {
+                    var width =0.9*$(window).width();
+                    var height =width*9/16;
+                }    
+            if ($(window).width()>992)
+                {
+                    var width =0.7*$(window).width();
+                    var height =width*9/16;
+                }    
             player = new YT.Player('muteYouTubeVideoPlayer', {
                 // YouTube Video ID
                 videoId: '3o3yqhdsFg0',
-                width: 560,
-                height: 316,
+                width: width,
+                height: height,
                 playerVars: {
-                    autoplay: 1,
+                    autoplay: 0,
                     controls: 1,
                     // Hide the video title
                     showinfo: 0,
