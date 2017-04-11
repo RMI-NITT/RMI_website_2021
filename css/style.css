@@ -325,3 +325,31 @@ body {
   background-position: -95px -5px; 
 }
 
+/*
+projects swiper
+
+*/
+.swiper-slide .card-content {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 250px;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.events .card-content {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 190px;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+#rmi-week ul li
+{
+  display: list-item;
+  list-style-type: disc;
+}
