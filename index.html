@@ -121,11 +121,12 @@
             <div class="swiper-slide"><div class="col s12 l4 m6">
           <div class="card">
             <div class="card-image">
-              <div class="video">
+              <!-- <div class="video">
               <video class="thevideo" loop muted>
                   <source src="videos/3d_printer.mp4" type="video/mp4">
                 </video>
-            </div>
+            </div> -->
+            <img id="3d_printer" src="videos/3d_printer.jpg">
               <span class="card-title">3D Printer</span >
             </div>
             <div class="card-content">
@@ -141,11 +142,12 @@
             <div class="swiper-slide"><div class="col s12 l4 m6">
           <div class="card">
             <div class="card-image">
-              <div class="video">
+             <!--  <div class="video">
               <video class="thevideo" loop muted>
                   <source src="videos/Air_hockey.mp4" type="video/mp4">
                 </video>
-            </div>
+            </div> -->
+             <img id="Air_hockey" src="videos/Air_hockey.jpg">
               <span class="card-title">Air Hockey</span >
             </div>
             <div class="card-content">
@@ -161,11 +163,12 @@
             <div class="swiper-slide"><div class="col s12 l4 m6">
           <div class="card">
             <div class="card-image">
-              <div class="video">
+             <!--  <div class="video">
               <video class="thevideo" loop muted>
                   <source src="videos/EXOs.mp4" type="video/mp4">
                 </video>
-            </div>
+            </div> -->
+             <img id="EXOS" src="videos/EXOS.jpg">
               <span class="card-title">EXOS</span >
             </div>
             <div class="card-content">
@@ -183,11 +186,12 @@
             <div class="swiper-slide"><div class="col s12 l4 m6">
           <div class="card">
             <div class="card-image">
-              <div class="video">
+             <!--  <div class="video">
               <video class="thevideo" loop muted>
                   <source src="videos/MOM.mp4" type="video/mp4">
                 </video>
-            </div>
+            </div> -->
+             <img id="MOM" src="videos/MOM.jpg">
               <span class="card-title">Mind Over Matter</span >
             </div>
             <div class="card-content">
@@ -203,11 +207,12 @@
             <div class="swiper-slide"><div class="col s12 l4 m6">
           <div class="card">
             <div class="card-image">
-              <div class="video">
+              <!-- <div class="video">
               <video class="thevideo" loop muted>
                   <source src="videos/MRDP.mp4" type="video/mp4">
                 </video>
-            </div>
+            </div> -->
+             <img id="MRDP" src="videos/MRDP.jpg">
               <span class="card-title">Project Pepper</span >
             </div>
             <div class="card-content">
@@ -223,11 +228,12 @@
             <div class="swiper-slide"><div class="col s12 l4 m6">
           <div class="card">
             <div class="card-image">
-              <div class="video">
+             <!--  <div class="video">
               <video class="thevideo" loop muted>
                   <source src="videos/Quad.mp4" type="video/mp4">
                 </video>
-            </div>
+            </div> -->
+             <img id="Quad" src="videos/Quad.jpg">
               <span class="card-title">QuadCopter</span >
             </div>
             <div class="card-content">
@@ -243,11 +249,12 @@ The objective of our quadcop is to detect and recognize criminals in large crowd
             <div class="swiper-slide"><div class="col s12 l4 m6">
           <div class="card">
             <div class="card-image">
-              <div class="video">
+             <!--  <div class="video">
               <video class="thevideo" loop muted>
                   <source src="videos/Slathex.mp4" type="video/mp4">
                 </video>
-            </div>
+            </div> -->
+             <img id="Slathex" src="videos/Slathex.jpg">
               <span class="card-title">SLAT-HEX</span >
             </div>
             <div class="card-content">
@@ -720,5 +727,70 @@ function hideVideo(e) {
         };
     </script>
  <script type="text/javascript">jssor_1_slider_init();</script>
+
+ <script type="text/javascript">
+   $("#3d_printer").hover(
+    function() {
+        $(this).attr("src", "videos/3d_printer.gif");
+    },
+    function() {
+        $(this).attr("src", "videos/3d_printer.jpg");
+    }                         
+);  
+
+    $("#Air_hockey").hover(
+    function() {
+        $(this).attr("src", "videos/Air_hockey.gif");
+    },
+    function() {
+        $(this).attr("src", "videos/Air_hockey.jpg");
+    }                         
+); 
+
+     $("#EXOS").hover(
+    function() {
+        $(this).attr("src", "videos/EXOS.gif");
+    },
+    function() {
+        $(this).attr("src", "videos/EXOS.jpg");
+    }                         
+); 
+
+      $("#MOM").hover(
+    function() {
+        $(this).attr("src", "videos/MOM.gif");
+    },
+    function() {
+        $(this).attr("src", "videos/MOM.jpg");
+    }                         
+); 
+
+       $("#MRDP").hover(
+    function() {
+        $(this).attr("src", "videos/MRDP.gif");
+    },
+    function() {
+        $(this).attr("src", "videos/MRDP.jpg");
+    }                         
+); 
+
+        $("#Quad").hover(
+    function() {
+        $(this).attr("src", "videos/Quad.gif");
+    },
+    function() {
+        $(this).attr("src", "videos/Quad.jpg");
+    }                         
+); 
+
+         $("#Slathex").hover(
+    function() {
+        $(this).attr("src", "videos/Slathex.gif");
+    },
+    function() {
+        $(this).attr("src", "videos/Slathex.jpg");
+    }                         
+); 
+ </script>
   </body>
 </html>
