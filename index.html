@@ -139,6 +139,30 @@
             </div>
           </div>
         </div></div>
+
+        <div class="swiper-slide"><div class="col s12 l4 m6">
+          <div class="card">
+            <div class="card-image">
+              <!-- <div class="video">
+              <video class="thevideo" loop muted>
+                  <source src="videos/3d_printer.mp4" type="video/mp4">
+                </video>
+            </div> -->
+            <img style="background-color: black; padding: 5.15% 0 5.15%;" id="ARES" src="videos/ARES.jpg">
+              <span class="card-title">ARES</span >
+            </div>
+            <div class="card-content">
+              <p>
+             ARES helps in the rehabilitation of patients recovering from post-stroke trauma, degenerated muscles due to old age or other neuro-muscular disorders which are are some of the unsolved challenges faced by medics.
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="projects/ARES.html">Read More...</a>
+            </div>
+          </div>
+        </div></div>
+
+
             <div class="swiper-slide"><div class="col s12 l4 m6">
           <div class="card">
             <div class="card-image">
@@ -270,7 +294,7 @@ The objective of our quadcop is to detect and recognize criminals in large crowd
             <div class="swiper-slide"><div class="col s12 l4 m6">
           <div class="card">
             <div class="card-image">
-              <img src="images/proj8.jpg">
+              <img id="Soccer_bots" style="background-color: black; padding: 5.15% 0 5.15%;" src="videos/Soccer_bots.jpg">
               <span class="card-title">Soccer Robots</span >
             </div>
             <div class="card-content">
@@ -789,8 +813,31 @@ function hideVideo(e) {
     },
     function() {
         $(this).attr("src", "videos/Slathex.jpg");
-    }                         
+    }                        
+
+          $("#ARES").hover(
+    function() {
+        $(this).attr("src", "videos/ARES.gif");
+    },
+    function() {
+        $(this).attr("src", "videos/ARES.jpg");
+    } 
+
+
+          $("#Soccer_bots").hover(
+    function() {
+        $(this).attr("src", "videos/Soccer_bots.gif");
+    },
+    function() {
+        $(this).attr("src", "videos/Soccer_bots.jpg");
+    } 
 ); 
  </script>
+
+
+<script type="text/javascript">
+  var w =parseInt($(".events .col").height())
+  $(".events .col").css({ 'height': w})
+</script>
   </body>
 </html>
