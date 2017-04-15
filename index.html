@@ -334,7 +334,7 @@ The objective of our quadcop is to detect and recognize criminals in large crowd
 
       <!--   Icon Section   -->
       <div class="row center">
-          <div class="col s12 m6 l4">
+          <div class="col event-cards s12 m6 l4">
           <div class="card">
             <div class="card-image">
               <img src="images/genesis1.png">
@@ -394,6 +394,7 @@ departments.
 </ol>
             </p>
     </div>
+    <div class="col s12 m12 l12">
     <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:500px;overflow:hidden;visibility:hidden;">
         <!-- Loading Screen -->
         <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
@@ -418,6 +419,7 @@ departments.
             <div data-u="prototype" style="width:21px;height:21px;"></div>
         </div>
     </div>
+    </div>
 
       </div>       
       </div>
@@ -428,7 +430,7 @@ departments.
     </div>
   </div>
 
-        <div class="col s12 m6 l4">
+        <div class="col event-cards s12 m6 l4">
           <div class="card">
             <div class="card-image">
               <img src="images/robovigyan2.png">
@@ -499,7 +501,7 @@ Seven Stones, a traditional South Indian game played between two teams in a boun
     </div>
   </div>
 
-<div class="col s12 l4 m6">
+<div class="col event-cards s12 l4 m6">
           <div class="card">
             <div class="card-image">
               <img src="images/rmi_week.png">
@@ -836,8 +838,10 @@ function hideVideo(e) {
 
 
 <script type="text/javascript">
-  var w =parseInt($(".events .col").height())
-  $(".events .col").css({ 'height': w})
+  var w =parseInt($(".event-cards .col").height())
+  $(" .event-cards .col").css({ 'height': w})
+  var w1 =parseInt($(".event-cards .card-image").width())
+  $(".event-cards .card-image img" ).css({'height': w1})
 </script>
   </body>
 </html>

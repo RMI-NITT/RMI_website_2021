@@ -359,3 +359,6 @@ projects swiper
 }
 
 /* members in project page*/
+.members .card-content{
+  min-height: 70px;
+}
