@@ -262,10 +262,14 @@ body {
 .icon-button .fa-envelope {
   color: #db5a3c;
 }
+.icon-button .fa-bitbucket {
+  color: #000000;
+}
 
 .icon-button:hover .fa-twitter,
 .icon-button:hover .fa-facebook,
 .icon-button:hover .fa-github,
+.icon-button:hover .fa-bitbucket,
 .icon-button:hover .fa-linkedin,
 .icon-button:hover .fa-envelope,
 .icon-button:hover .fa-google-plus {
