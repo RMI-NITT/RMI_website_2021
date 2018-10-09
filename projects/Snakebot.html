@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
-    <title>Project Pepper</title>
+    <title>RoBoat</title>
 
     <!-- CSS  -->
     <link rel="shortcut icon" type="image/x-icon" href="../rmi.ico" />
@@ -62,43 +62,25 @@
                 <div class="col s12 center">
                     <h3><i class="mdi-content-send brown-text"></i></h3>
                     <div class="section">
-                        <h1 class="header center text-lighten-2">Project Pepper</h1>
-                        <h5 class="header"><i>Robotic Autonomous Mobile Assistant</i></h5>
+                        <h1 class="header center text-lighten-2">Snakebot</h1>
+                        <h5 class="header"><i>Slither of hope</i></h5>
                     </div>
                     <div class="divider"></div>
                     <div class="section">
                         <p class="left-align light">
-                            Pepper is a differential drive robot that is capable of mapping an environment and navigating in it and is aimed at being a personal assistant for the user using various artificial intelligent algorithms. Few of the algorithms used can perform- speaker
-                            recognition, object detection and recognition etc. A gripper is also present on the chassis of the robot that performs object grasping. The robot uses a ROS network as a platform of communication between the various sensors
-                            and actuators and the on board computer (ROS master).
+                            Over the past few years, the need for surveillance and security has greatly increased due to
+various threats. We plan to help improve the security and ease the burden on the soldiers with
+our snakebot. Our snakebot is a snake-like robot which can pass through small holes and
+cracks and can be used to reach areas inaccessible or dangerous to humans, concealing itself
+there. From there it can be used for surveillance. The robot can be used in all terrains on land.
+Also, the robot slithers its way and hence would be undetected from a distance.
                         </p>
                         <p class="left-align light">
-                            <b>Robot Design:</b><br> The chassis of the robot was designed using Autocad and the design was fabricated using acrylic. The chassis can be broadly classified with three layers- bottom layer to contain the battery and driver,
-                            middle layer to contain the gripper arm and the top layer that contains the on board computer. Microsoft Kinect is attached to the topmost pedestal. Two high torque motors with internal rotary encoders are used to move the
-                            robot and a castor wheel is used to provide stability.
-                        </p>
-                        <p class="left-align light">
-                            <b>Mapping:</b>
-                            <br> To navigate an environment optimally its map is required. Pepper achieves this using the on board kinect sensor and the gmapping ROS package. The package uses Simultaneous Localisation and Mapping Algorithm (SLAM) to generate
-                            the map. Localisation: As the size of the robot increases the drift in the wheels also increases. To tackle this problem we use more than one sensor and perform Kalman filter algorithm. The inbuilt encoder is used to perform
-                            dead reckoning and obtain the pose of the robot. A gyroscope is also used to obtain the yaw of the robot and these sensor values are used in the Kalman filter to estimate the pose.
-
-                        </p>
-                        <p class="left-align light">
-                            <b>
-Speaker Recognition:
-</b>
-                            <br> When the robot detects a voice command from a user, it must first identify the speaker before responding to him. A machine learning algorithm was developed to identify the speaker of a voice sample. The algorithm used
-                            was text independent and developed as a real time application. The voice samples of the speaker were first trained using the Mel Frequency Cepstral Coefficient(MFCC) Vectors, extracted from the training voice data. The voice
-                            model of the speaker was thus developed and the corresponding parameters saved in the database. This was done for all speakers. When a real time test sample is detected, the machine extracts the MFCC vectors and compares it
-                            with the already saved voice samples. The closest match in the existing database is found and hence the speaker is recognised.
-                        </p>
-                        <p class="left-align light">
-                            <b>
-Object Recognition and Pick up:
-</b><br> The bot is trained with 1000 classes of object using Convolutional Neural Network (CNN). CNN is a bio inspired machine learning algorithm and its functions are similar to the eye. The input image is captured using
-                            kinect and its depth is measured. There is a robotic arm mounted on the base of the robot. If the depth is greater than the workspace of the robotic arm then the robot moves closer to the object. The robotic arm has 3 degrees
-                            of freedom (gripper has 1 DOF). The object is recognised and the robot picks up the object.
+                            India has been suffering from many natural and man-caused catastrophic disasters during the
+last decades, like massive earthquakes, fire breakouts, floods, etc. Owing to the frequency of
+such disasters our robot can be deployed to search for trapped survivors. The multi-jointed
+snakebot provides rescue workers with a video feed as it passes through the rubble.
+                       
                         </p>
                     </div>
                 </div>
@@ -145,15 +127,14 @@ Object Recognition and Pick up:
         </div>
         <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:500px;overflow:hidden;">
             <div>
-                <img data-u="image" src="../images/projectpics/Project_pepper/pic1.png" />
+                <img data-u="image" src="../images/projectpics/Snakebot/1.jpeg" />
             </div>
             <div>
-                <img data-u="image" src="../images/projectpics/Project_pepper/pic2.png" />
+                <img data-u="image" src="../images/projectpics/Snakebot/2.jpeg" />
             </div>
             <div>
-                <img data-u="image" src="../images/projectpics/Project_pepper/pic3.png" />
+                <img data-u="image" src="../images/projectpics/Snakebot/3.jpeg" />
             </div>
-
         </div>
         <!-- Bullet Navigator -->
         <div data-u="navigator" class="jssorb13" style="bottom:16px;right:16px;" data-autocenter="1">
@@ -176,10 +157,10 @@ Object Recognition and Pick up:
         </div>
     </div>
     <div class="col s12 l12 m12 center" id="video_wrapper">
-        <!-- <iframe width="420" height="315" src="https://www.youtube.com/embed/3o3yqhdsFg0?loop=1&controls=0"></iframe> -->
-        <div id="muteYouTubeVideoPlayer"></div>
+        <!--<iframe width="420" height="315" src="https://www.youtube.com/watch?v=ejuZ6P_VMMI&feature=youtu.be"></iframe> -->
+         <div id="muteYouTubeVideoPlayer"></div> 
         <!--<div class="video" id="player">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/3o3yqhdsFg0?loop=1&controls=0" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=ejuZ6P_VMMI&feature=youtu.be" frameborder="0" allowfullscreen></iframe>
         </div> -->
     </div>
 
@@ -200,13 +181,13 @@ Object Recognition and Pick up:
 
     <div class="container members">
         <div class="row center">
-            <div class="col s4 m3 l2">
+            <div class="col  offset-l2 s4 m3 l2">
                 <div class="card" style="box-shadow: none;">
                     <div class="card-image">
-                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Adarsh.jpg">
+                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Dhanavel.jpg">
                     </div>
                     <div class="card-content" style="padding: 8px;">
-                        <h6 style="font-size: 1.25rem">Adarsh Jagan S</h6>
+                        <h6 style="font-size: 1.25rem">Dhanavel</h6>
                     </div>
                 </div>
             </div>
@@ -214,10 +195,10 @@ Object Recognition and Pick up:
             <div class="col s4 m3 l2">
                 <div class="card" style="box-shadow: none;">
                     <div class="card-image">
-                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/prakash.jpg">
+                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Monalisa.png">
                     </div>
                     <div class="card-content" style="padding: 8px;">
-                        <h6 style="font-size: 1.25rem">Prakash Baskaran</h6>
+                        <h6 style="font-size: 1.25rem">Monalisa</h6>
                     </div>
                 </div>
             </div>
@@ -225,10 +206,10 @@ Object Recognition and Pick up:
             <div class="col  s4 m3 l2">
                 <div class="card" style="box-shadow: none;">
                     <div class="card-image">
-                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/G.jpg">
+                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Rishab.jpg">
                     </div>
                     <div class="card-content" style="padding: 8px;">
-                        <h6 style="font-size: 1.25rem">Sriharish S</h6>
+                        <h6 style="font-size: 1.25rem">Rishab Balasubramanian </h6>
                     </div>
                 </div>
             </div>
@@ -236,85 +217,16 @@ Object Recognition and Pick up:
             <div class="col s4 m3 l2">
                 <div class="card" style="box-shadow: none;">
                     <div class="card-image">
-                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile//Arvind_Nataraj.jpg">
+                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Lahiri.jpg">
                     </div>
                     <div class="card-content" style="padding: 8px;">
-                        <h6 style="font-size: 1.25rem">Arvind Natraj</h6>
+                        <h6 style="font-size: 1.25rem">Soumyarup Lahiri</h6>
                     </div>
                 </div>
             </div>
-
-            <div class="col s4 m3 l2">
-                <div class="card" style="box-shadow: none;">
-                    <div class="card-image">
-                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile//Ruthz.jpg">
-                    </div>
-                    <div class="card-content" style="padding: 8px;">
-                        <h6 style="font-size: 1.25rem">H. Ruthrash</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s4 m3 l2">
-                <div class="card" style="box-shadow: none;">
-                    <div class="card-image">
-                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Nithin.jpg">
-                    </div>
-                    <div class="card-content" style="padding: 8px;">
-                        <h6 style="font-size: 1.25rem">Nithin Shrivatsav S</h6>
-                    </div>
-                </div>
-            </div>
+        </div>
 
 
-            <div class="col off  s4 m3 l2">
-                <div class="card" style="box-shadow: none;">
-                    <div class="card-image">
-                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Venkat.jpg">
-                    </div>
-                    <div class="card-content" style="padding: 8px;">
-                        <h6 style="font-size: 1.25rem">Venkata Subramanian S</h6>
-                    </div>
-                </div>
-            </div>
-
-	
-	<div class="col off  s4 m3 l2">
-                <div class="card" style="box-shadow: none;">
-                    <div class="card-image">
-                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Surya.jpeg">
-                    </div>
-                    <div class="card-content" style="padding: 8px;">
-                        <h6 style="font-size: 1.25rem">Surya S</h6>
-                    </div>
-                </div>
-            </div>
-
-
-	<div class="col off  s4 m3 l2">
-                <div class="card" style="box-shadow: none;">
-                    <div class="card-image">
-                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Anirudh.jpg">
-                    </div>
-                    <div class="card-content" style="padding: 8px;">
-                        <h6 style="font-size: 1.25rem">Anirudh Swaminathan</h6>
-                    </div>
-                </div>
-            </div>
-
-	<div class="col off  s4 m3 l2">
-                <div class="card" style="box-shadow: none;">
-                    <div class="card-image">
-                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Subramanian-2.JPG">
-                    </div>
-                    <div class="card-content" style="padding: 8px;">
-                        <h6 style="font-size: 1.25rem">Subramanian</h6>
-                    </div>
-                </div>
-            </div>
-
-	
-	
 
 
     </div>
@@ -329,9 +241,8 @@ Object Recognition and Pick up:
         </div>
     </footer>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
     <!-- Floating action button -->
-    <!--    <div class="fixed-action-btn">
+    <!--     <div class="fixed-action-btn">
         <a class="btn-floating btn-large red">
             <i class="large material-icons">mode_edit</i>
         </a>
@@ -471,7 +382,7 @@ Object Recognition and Pick up:
             }
             player = new YT.Player('muteYouTubeVideoPlayer', {
                 // YouTube Video ID
-                videoId: 'SEpNEp0OP6Y?list=PL44ElmNkyTvBkK0XeyDZ0ApXayw_p0Ibq',
+                videoId: 'ivmJjOD28HI',
                 width: width,
                 height: height,
                 playerVars: {
@@ -491,7 +402,7 @@ Object Recognition and Pick up:
                     // Hide video controls when playing
                     autohide: 0,
                     // Hack to make the player loop over a single video again
-                    playlist: 'SEpNEp0OP6Y?list=PL44ElmNkyTvBkK0XeyDZ0ApXayw_p0Ibq'
+                    playlist: 'ejuZ6P_VMMI'
                 },
                 events: {
                     onReady: function(e) {
