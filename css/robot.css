@@ -7,17 +7,29 @@
     transform-origin: -100% -100%;
     left: 100%;
     top: 106%;
-    z-index: 1;
-    transition: transform 300ms ease-in-out;
+
+    transition: transform 300ms ;
+    
 
 }
 
-
-.robot:hover
+.trigger
 {
-    transform: translateY(20%)
+    position: fixed;
+    width: 60%;
+    height: 80%;
+    left: 70%;
+    top: 60%;
+    z-index: 2;
+    /*background: pink;
+    display: inline-block;*/
+    border-radius: 50%;
 }
 
+.trigger:hover .robot
+{
+    transform: translateY(10%);
+}
 
 
 .head
