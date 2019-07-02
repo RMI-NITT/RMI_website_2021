@@ -890,7 +890,7 @@
 
     <!-- trying to add a robot whose eyes follow the mouse -->
 
-    <div class="robot">
+    <div id="shy_robot" class="robot">
         
         <div class="headgear">
         
@@ -991,18 +991,26 @@
     <script>
         
         var balls = document.getElementsByClassName("eyeball");
-        
+        var robot = document.getElementById("shy_robot");
         document.onmousemove = function(){
         
             var x = event.clientX * 100 / window.innerWidth  + "%";
             var y = event.clientY * 100 / window.innerHeight - 15 + "%";
-        
             for(var i = 0 ; i < 2 ; i++)
             {
                 balls[i].style.left = x ;
                 balls[i].style.top = y ;
             }
-        
+
+            /*
+            if(parseFloat(x.substring(0, x.length-1)) > 54 && parseFloat(y.substring(0, y.length-1)) > 54 )
+            {
+                robot.style.opacity = 0;
+            }
+            else
+            {
+                robot.style.opacity = 100;
+            }*/
         }
     </script>
 
