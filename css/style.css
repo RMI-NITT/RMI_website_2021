@@ -40,7 +40,6 @@ p {
     }
 }
 
-
 /*@media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
@@ -87,7 +86,6 @@ footer.page-footer {
     z-index: 996;
 }
 
-
 /*-----Projects-----*/
 
 #project {
@@ -97,7 +95,6 @@ footer.page-footer {
 body {
     font-family: 'Lato';
 }
-
 
 /*-----Slider-----*/
 
@@ -147,9 +144,7 @@ body {
     display: block;
 }
 
-
 /* social icons */
-
 
 /* Wrapper */
 
@@ -188,7 +183,6 @@ body {
     user-select: none;
     width: 3.5rem;
 }
-
 
 /* Circle */
 
@@ -253,7 +247,6 @@ body {
     background-color: #db5a3c;
 }
 
-
 /* Icons */
 
 .icon-button i {
@@ -302,13 +295,11 @@ body {
     color: white;
 }
 
-
 /*profile cards*/
 
 .back .container {
     width: 100%;
 }
-
 
 /*videos*/
 
@@ -316,13 +307,11 @@ body {
     width: 100%;
 }
 
-
 /*event descriptions*/
 
 .description p {
     text-align: justify;
 }
-
 
 /*slider*/
 
@@ -355,7 +344,6 @@ body {
 .jssorb13 .dn, .jssorb13 .dn:hover {
     background-position: -95px -5px;
 }
-
 
 /*
 projects swiper
@@ -390,7 +378,6 @@ projects swiper
 .back .footer {
     border: none;
 }
-
 
 /* members in project page*/
 
