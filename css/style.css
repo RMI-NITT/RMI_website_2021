@@ -223,6 +223,10 @@ body {
     margin: -1.75rem;
 }
 
+.instagram span {
+    background-color: #E1306C;
+}
+
 .twitter span {
     background-color: #4099ff;
 }
@@ -244,7 +248,11 @@ body {
 }
 
 .envelope span {
-    background-color: #db5a3c;
+    background-color: #160258;
+}
+
+.youtube-play span {
+    background-color: #c4302b;
 }
 
 /* Icons */
@@ -261,6 +269,10 @@ body {
     transition: all 0.3s;
     width: 3.5rem;
     z-index: 10;
+}
+
+.icon-button .fa-instagram {
+    color: #E1306C;
 }
 
 .icon-button .fa-twitter {
@@ -284,14 +296,18 @@ body {
 }
 
 .icon-button .fa-envelope {
-    color: #db5a3c;
+    color: #160258;
 }
 
 .icon-button .fa-bitbucket {
     color: #000000;
 }
 
-.icon-button:hover .fa-twitter, .icon-button:hover .fa-facebook, .icon-button:hover .fa-github, .icon-button:hover .fa-bitbucket, .icon-button:hover .fa-linkedin, .icon-button:hover .fa-envelope, .icon-button:hover .fa-google-plus {
+.icon-button .fa-youtube-play {
+    color: #c4302b;
+}
+
+.icon-button:hover .fa-youtube-play, .icon-button:hover .fa-instagram, .icon-button:hover .fa-twitter, .icon-button:hover .fa-facebook, .icon-button:hover .fa-github, .icon-button:hover .fa-bitbucket, .icon-button:hover .fa-linkedin, .icon-button:hover .fa-envelope, .icon-button:hover .fa-google-plus {
     color: white;
 }
 
