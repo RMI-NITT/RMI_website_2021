@@ -8,6 +8,7 @@
 * Designed and updated the events' logo tiles.
 * Modified the CSS for Misalignment bugs throughout the websites.
 * Changed the Background for Profile Cards.
+* Included links to RMI's YouTube channel and Instagram Profile.
 
 ### Progressing
 
@@ -20,5 +21,6 @@
 * Added links and icons for personal websites.
 * Linked the Projects in the Cards to respective project pages.
 * Added a YouTube window displaying all the Pragyan Displays.
-* Included links to RMI's YouTube channel and Instagram Profile.
 * Resolved Youtube API bugs.
+* Updated the Webteam Details
+* Added details of Summer Projects.
