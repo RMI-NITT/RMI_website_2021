@@ -24,3 +24,4 @@
 * Resolved Youtube API bugs.
 * Updated the Webteam Details
 * Added details of Summer Projects.
+* Add a dark mode version
