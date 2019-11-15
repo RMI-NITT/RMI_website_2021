@@ -256,17 +256,12 @@ body {
 }
 
 .external-link span {
-    background-color: #08cfae;
+    background-color: #03cece;
 }
 
 .user span {
-    background-color: #08cfae;
+    background-color: #03cece;
 }
-
-.globe span {
-    background-color: #08cfae;
-}
-
 
 /* Icons */
 
@@ -285,14 +280,11 @@ body {
 }
 
 .icon-button .fa-user {
-    color: #08cfae;
-}
-.icon-button .fa-globe {
-    color: #08cfae;
+    color: #03cece;
 }
 
 .icon-button .fa-external-link {
-    color: #08cfae;
+    color: #03cece;
 }
 
 .icon-button .fa-instagram {
