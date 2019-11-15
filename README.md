@@ -1,6 +1,6 @@
 # RMI-WEBSITE
 
-## RMI-WEBSITE Version Update:
+## RMI-WEBSITE Version Update
 
 ### Completed
 
