@@ -13,6 +13,7 @@
 * Linked the Projects in the Cards to respective project pages.
 * Made external links to open in new tab.
 * Added links and icons for personal websites.
+* Updated the Webteam Details.
 
 ### Progressing
 
@@ -24,6 +25,5 @@
 
 * Added a YouTube window displaying all the Pragyan Displays.
 * Resolved Youtube API bugs.
-* Updated the Webteam Details.
 * Added details of Summer Projects.
 * Added dark mode version.
