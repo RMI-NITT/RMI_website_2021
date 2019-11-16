@@ -12,18 +12,17 @@
 * Updated the database of members and alumni.
 * Linked the Projects in the Cards to respective project pages.
 * Made external links to open in new tab.
-* Added links and icons for personal websites.
+* Added hyperlinks and icons for personal websites.
 * Updated the Webteam Details.
 
 ### Progressing
 
 * Updated the projects and included the recent ones.
-* Updated the list of events with recent ones.
 * Updated the events with previous three years' data.
 
 ### Pending
 
 * Added a YouTube window displaying all the Pragyan Displays.
 * Resolved Youtube API bugs.
-* Added details of Summer Projects.
-* Added dark mode version.
+* Details of Summer Projects to be added.
+* Dark mode version to be released in next update.
