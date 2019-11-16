@@ -123,22 +123,29 @@
                         PROJECTS
                     </h1>
                     <h4 class="header col s12 light">Let's Build</h4>
-                    <iframe width="1120" height="630" src="https://www.youtube.com/embed/videoseries?list=PL44ElmNkyTvBkK0XeyDZ0ApXayw_p0Ibq" 
-                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                   
-
                 </div>
-                
             </div>
         </div>
         <div id="projects" class="parallax" style="background: #144955"></div>
     </div>
 
+    <div class="container">
+            <div class="row center">
+                <!--div class="col s12 l12 m12 center" id="video_wrapper">
+                    <iframe width="420" height="315" src="https://www.youtube.com/watch?v=ejuZ6P_VMMI&feature=youtu.be"></iframe> >
+                    <div id="muteYouTubeVideoPlayer"></div> 
+                </div-->
+                <div class="video-container">
+                    <iframe class="myIframe" src="https://www.youtube.com/embed/videoseries?list=PL44ElmNkyTvBkK0XeyDZ0ApXayw_p0Ibq&autoplay=1&rel=0&loop=1&shuffle=1" 
+                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="video-container iframe"></iframe> 
+                </div> 
+            </div>
+        </div>
+
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="col s12 l4 m6">
-                    
                     <div class="card">
                         <div class="card-image">
                             <!-- <div class="video">
@@ -534,11 +541,11 @@
                                 </video>
                             </div> -->
                             <img id="SRB" src="videos/SRB.jpg">
-                            <span class="card-title">SRB</span>
+                            <span class="card-title">SRR</span>
                         </div>
                         <div class="card-content">
                             <p align="justify">
-                                SRB (Search and Reconnaissance Bot) is a all terrain robot developed for quick rescue operations
+                                SRR (Search and Reconnaissance Robot) is a all terrain robot developed for quick rescue operations
                                 It has active articulating chassis to allow overcoming obstacles of greater size than its wheels.
                                 Module separation allows the robot to go into tight spaces where the whole body doesn't fit.
                             </p>
@@ -588,7 +595,6 @@
     <div class="parallax-container valign-wrapper">
         <div class="section no-pad-bot">
             <div class="container">
-
                 <div class="row center">
                     <h1 id="event" class="header center col s12  " style="color: #FFFFFF; font-weight: bold; border-bottom: 1px solid;">WORKSHOPS & EVENTS</h1>
                     <h4 class="header col s12 light">Come and be a part</h4>
@@ -898,7 +904,6 @@
                                             supposed to be at different floors. For faster output your system must be able to 
                                             perform these operations with least number of actions possible.      
                                             For easier implementation the hackathon will be split into three stages as follows:        
-
                                         
                                             <ol class="left-align">
                                                 <li> Stage 1 - Mechanics, In this stage you should construct your system which will 
@@ -1093,27 +1098,11 @@
                                         <p align="justify">
                                             This is a brief on the line up for RMI Week:<br>
                                             <ul>
-                                                <li> Following  – The annual robotics competition for the first
-                                                    years.</li>
                                                 <li>Lectures – A total of 4 lectures on various domains in Robotics.</li>
                                                 <li>Events – Online activities, quizzes, and many more. </li>
                                                 <li>OpenSAC 05 – Get a chance to visit our workplace and see our
                                                     projects.</li>
-                                                <li>Hackathon – Work for 8 straight hours to get a problem statement
-                                                    done.</li>
                                             </ul>
-                                        </p>
-                                        <p align="justify">
-                                            <b>PS:</b>
-                                            <ol>
-                                                <li>Following is exclusively for the first years.</li>
-                                                <li>Hackathon is for the first years (who get shortlisted from
-                                                    Following ) and second years (those who are participating in
-                                                    lateral inductions).</li>
-                                                <li>Apart from Following and Hackathon, all others i.e. Lectures,
-                                                    events and OpenSAC 05 is open to the whole college to
-                                                    participate.</li>
-                                            </ol>
                                         </p>
                                     </div>
                                     <div id="jssor_6" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:500px;overflow:hidden;visibility:hidden;">
@@ -1149,6 +1138,33 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h1 id="project" class="header center col s12  " style="color: #FFFFFF; font-weight: bold;">
+                        PRAGYAN DISPLAY
+                    </h1>          
+                    <h4 class="header col s12 light">See Us Live</h4>  
+                </div>
+            </div>
+        </div>
+        <div id="project" class="parallax" style="background: #beaa39"></div>
+    </div>
+
+    <div class="container">
+        <div class="row center">
+            <!--div class="col s12 l12 m12 center" id="video_wrapper">
+                <iframe width="420" height="315" src="https://www.youtube.com/watch?v=ejuZ6P_VMMI&feature=youtu.be"></iframe> >
+                <div id="muteYouTubeVideoPlayer"></div> 
+            </div-->
+            <div class="video-container">
+                <iframe class="myIframe" src="https://www.youtube.com/embed/videoseries?list=PL44ElmNkyTvC7qGcFXGztIM8LIQAO3_wq&autoplay=1&rel=0&loop=1&shuffle=1" 
+                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="video-container iframe"></iframe> 
+            </div> 
         </div>
     </div>
 
@@ -1237,6 +1253,65 @@
     </script>
 
 </body>
+
+<script async src="https://www.youtube.com/iframe_api"></script>
+    <script>
+        function onYouTubeIframeAPIReady() {
+            var player;
+            if ($(window).width() < 600) {
+                var width = 0.9 *$(window).width();
+                var height = width * 9 / 16;
+            }
+            if ($(window).width() < 992) {
+                var width = 0.85 * $(window).width();
+                var height = width * 9 / 16;
+            }
+            if ($(window).width() > 992) {
+                var width = 0.7 * $(window).width();
+                var height = width * 9 / 16;
+            }
+            player = new YT.Player('muteYouTubeVideoPlayer', {
+                // YouTube Video ID
+                videoId: 'UJexlYXb2OY',
+                width: width,
+                height: height,
+                playerVars: {
+                    autoplay: 0,
+                    controls: 1,
+                    // Hide the video title
+                    showinfo: 0,
+                    // Hide the Youtube Logo
+                    modestbranding: 1,
+                    // Run the video in a loop
+                    loop: 1,
+                    // Hide the full screen button
+                    fs: 1,
+                    cc_load_policy: 0,
+                    // Hide the Video Annotations
+                    iv_load_policy: 3,
+                    // Hide video controls when playing
+                    autohide: 0,
+                    // Hack to make the player loop over a single video again
+                    playlist: 'PL44ElmNkyTvBkK0XeyDZ0ApXayw_p0Ibq'
+                    //playlist: 'ejuZ6P_VMMI'
+                },
+                events: {
+                    onReady: onPlayerReady,
+                    onStateChange: loopVideo
+                }
+            });
+        }
+
+        function onPlayerReady(event) {
+            event.target.playVideo();
+        }
+        function loopVideo(event) {
+            if (event.data === YT.PlayerState.ENDED) {
+                player.seekTo(0);
+                player.playVideo();
+            }
+        }
+    </script>
 
 <script type="text/javascript">
     var figure = $(".video").hover(hoverVideo, hideVideo);
