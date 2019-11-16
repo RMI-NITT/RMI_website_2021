@@ -20,7 +20,7 @@
 * Included links to RMI's YouTube channel and Instagram Profile.
 * Modified the CSS for Misalignment bugs throughout the webpages.
 * Created separate youtube playlist for each project and linked to website.
-  (hereafter ensure that all your vidoes are in their respective playlists)
+  (hereafter ensure that all your project videos are in their respective playlists)
 
 ### Next Update
 
