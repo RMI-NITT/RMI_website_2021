@@ -2,27 +2,30 @@
 
 ## RMI-WEBSITE Version Update
 
-### Completed
+### November'19
 
-* Added InHotts, Following and Hackathon events.
-* Designed and updated the events' logo tiles.
-* Modified the CSS for Misalignment bugs throughout the websites.
+#### Completed
+
 * Changed the Background for Profile Cards.
-* Included links to RMI's YouTube channel and Instagram Profile.
 * Updated the database of members and alumni.
+* Designed and updated the events' logo tiles.
+* Added InHotts, Following and Hackathon events.
 * Linked the Projects in the Cards to respective project pages.
-* Made external links to open in new tab.
+* Modified the CSS for Misalignment bugs throughout the websites.
+* Included links to RMI's YouTube channel and Instagram Profile.
+* Added a YouTube window displaying all the Pragyan Displays.
 * Added hyperlinks and icons for personal websites.
+* Made external links to open in new tab.
+* Updated the list of project members.
 * Updated the Webteam Details.
 
-### Progressing
+#### Progressing
 
 * Updated the projects and included the recent ones.
 * Updated the events with previous three years' data.
 
-### Pending
+#### Pending
 
-* Added a YouTube window displaying all the Pragyan Displays.
 * Resolved Youtube API bugs.
 * Details of Summer Projects to be added.
 * Dark mode version to be released in next update.
