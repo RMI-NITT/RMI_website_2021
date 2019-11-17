@@ -2,7 +2,7 @@
 
 ## RMI-WEBSITE Version Update
 
-### November'19 Update
+### November'19 Release (v1.0.0)
 
 * Resolved Youtube API bugs.
 * Updated the Webteam Details.
