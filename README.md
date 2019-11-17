@@ -16,10 +16,10 @@
 * Updated the projects and included the recent ones.
 * Updated the list of current and past project members.
 * Linked the Projects in the Cards to respective project pages.
-* Added a YouTube window presenting all the Pragyan Displays.
+* Added a YouTube window, presenting all the Pragyan Displays.
 * Included links to RMI's YouTube channel and Instagram Profile.
 * Modified the CSS for Misalignment bugs throughout the webpages.
-* Created separate youtube playlist for each project and linked to website.
+* Created separate youtube playlist for each project and linked to the website.
   (hereafter ensure that all your project videos are in their respective playlists)
 
 ### Next Update
