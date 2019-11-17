@@ -2,7 +2,7 @@
 
 ## Version Updates
 
-### November'19 Release (v1.0.0)
+### November'19 Release (v1.0.1)
 
 * Resolved Youtube API bugs.
 * Updated the Webteam Details.
