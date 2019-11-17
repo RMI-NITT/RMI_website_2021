@@ -1,6 +1,6 @@
 # RMI-WEBSITE
 
-## RMI-WEBSITE Version Update
+## Version Updates
 
 ### November'19 Release (v1.0.0)
 
