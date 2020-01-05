@@ -1,0 +1,38 @@
+
+
+
+
+
+INTRO:
+GENESIS is the annual robotic hands-on WORKSHOP 
+conducted exclusively for the freshmen students enthusiastic to seek the adventure of inducing life 
+to machines.
+Genesis 17 gave an insignht on how to build an autonomous light guided retriever and carrier bot.
+The workshop involved theory sessions on robotics and a practical session on bot-building.
+The workshop requiring no prior experience in robotics was conducted for aspirants cutting across all 
+departments.
+
+Topics:
+1) Mechanics - Gears, Servo Mechanism, Inverse Kinematics, Linkages and Four-Bar Mechanism.
+2) Electronics - Micro controller peripherals (Timers and PWM, ADC, Interrupts, Serial Communication), Voltage Regulator, Motor Drivers and other components.
+3) Programming - Embedded C.
+4) Fabrication
+
+*Take away Kit*
+1. Arduino microcontroller
+2. DC and Servo motors
+3. Gears
+4. Robot chassis 
+5. Proximity sensor and light dependent resistors
+6. Wire Stripper, Screwdriver
+7. Multimeter and many more.
+
+
+
+
+
+
+
+
+
+
