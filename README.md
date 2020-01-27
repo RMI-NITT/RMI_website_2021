@@ -24,7 +24,6 @@
 
 ### Next Update
 
-* Details of Summer Projects to be added.
 * Dark mode version to be released in next update.
 * Update the events with previous three years' data.
 * Trailer for the RMI YouTube channel linked to the website.
