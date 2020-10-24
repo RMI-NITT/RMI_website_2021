@@ -1,0 +1,2222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title>RMI</title>
+
+    <!-- CSS  -->
+    <link rel="shortcut icon" type="image/x-icon" href="rmi.ico" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="css/rotating-card.css" rel="stylesheet" />
+    <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet prerender" type="text/css" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav class="grey darken-4" role="navigation">
+            <div class="nav-wrapper container">
+
+                <ul class="left hide-on-med-and-down">
+                    <li><a href="index.html" class="brand-logo"><img src="images/logo.png" style=" max-height: 120px; padding: 20px"></a></li>
+                </ul>
+
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="waves-effect waves-light" href="index.html#Home">Home</a></li>
+                    <li><a class="waves-effect waves-light" href="index.html#projects">Projects</a></li>
+                    <li><a class="waves-effect waves-light" href="index.html#events">Workshops & Events</a></li>
+                    <li><a class="waves-effect waves-light" href="index.html#exhibits">Pragyan Exhibits</a></li>
+                    <li><a class="waves-effect waves-light" href="#">Members</a></li>
+                    <li><a class="waves-effect waves-light" href="Alumni.html">Alumni</a></li>
+                    <li><a class="waves-effect waves-light" href="faculty_advisor.html">Faculty Advisor</a></li>
+                    <li><a class="waves-effect waves-light" href="index.html#Contacts">Contact Us</a></li>
+                </ul>
+
+                <ul id="nav-mobile" class="side-nav">
+                    <li class="logo center"><img src="images/logo.png" style="max-height: 100px;"></li>
+                    <li><a href="index.html#Home">Home</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#events">Workshops & Events</a></li>
+                    <li><a href="index.html#exhibits">Pragyan Exhibits</a></li>
+                    <li><a href="#">Members</a></li>
+                    <li><a href="Alumni.html">Alumni</a></li>
+                    <li><a href="faculty_advisor.html">Faculty Advisor</a></li>
+                    <li><a href="index.html#Contacts">Contact Us</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+    </div>
+<!--
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red">
+            <i class="large material-icons">mode_edit</i>
+        </a>
+        <ul>
+            <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+            <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+            <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+            <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+        </ul>
+    </div> 
+-->
+
+
+    
+<ul id="tabs-swipe-demo" style=" position: fixed;z-index: 200;" class="tabs center">
+    <li class="tab col s4"><a id="1" href="#final-years">Batch of 2021</a></li>
+    <li class="tab col s4"><a id="2" href="#third-years">Batch of 2022</a></li>
+    <li class="tab col s4"><a id="3" href="#second-years">Batch of 2023</a></li>
+</ul>
+
+<!--Member Cards -->
+    
+    <div id="second-years" style="padding-top: 4rem;" class="container">
+        <div class="section">
+
+            <!--   Icon Section   -->
+            <div id="top3" class="row center">
+
+                <!-- ABHINAV -->
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Abhinav.jpeg">
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Abhinav Agrawal</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Computer Vision<br>Deep Learning<br>Path Planning</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                        <i class="fa fa-mail-forward"></i> Flip Card
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects">Rapid Rescuer</a>  
+                                        <p></p>
+                                        <a href="https://www.facebook.com/abhinav.agrawal.98837399/"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                                        <a href="https://www.linkedin.com/in/abhinav-agrawal-377761197"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:abhinav.agrawal4721@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/nevermess"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+
+                <!-- ARAVINDH DEIVA -->
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Aravindhdeiva.jpg">
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Aravindh Deiva G</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Electronics<br>Artificial Intelligence</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                        <i class="fa fa-mail-forward"></i> Flip Card
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects">Optical Character Recognition</a>  
+                                        <p></p>
+                                        <a href="https://www.linkedin.com/in/aravindh-deiva-ganesan-6668931a1"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:aravindhdeiva456@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/AravindhDeivaG"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+
+                <!-- ASWIN SREEKUMAR -->
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/AswinSreekumar.jpeg">
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Aswin Sreekumar</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Embedded Systems<br>IoT<br>Electronics</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                        <i class="fa fa-mail-forward"></i> Flip Card
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects">SONAR Mapping bot</a>  
+                                        <p></p>
+                                        <a href="https://www.linkedin.com/in/aswin-sreekumar-2001/"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:aswinsreekumar123@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/aswin-sreekumar/"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+
+                <!-- DIVYA AB  -->
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Divya.jpg">
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Divya A B</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Image Proccesing<br>Artificial Intelligence<br>Embedded systems</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                        <i class="fa fa-mail-forward"></i> Flip Card
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects">Optical Character Recognition</a>  
+                                        <p></p>
+                                        <a href="https://www.facebook.com/divya.arurbalaji.1"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                                        <a href="https://www.linkedin.com/in/divya-a-b-7b09b51b0"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:divyalakshmi422@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/DIVYA422"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+
+                <!-- GIRISH K  -->
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Girish.jpg">
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">K. Girish</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Electronics<br>Mechanics<br>Control systems</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                        <i class="fa fa-mail-forward"></i> Flip Card
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects">4 DOF Robotic arm</a>  
+                                        <p></p>
+                                        <a href="https://www.facebook.com/girish.karthik.756/"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                                        <a href="https://www.linkedin.com/in/girish-karthik-959165191/"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:girishk1470@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/girish-2001"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+
+                <!-- JAI KESAV -->
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Jaikesav.jpg">
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Jai Kesav K R</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Mechanics<br>Algorithms</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                        <i class="fa fa-mail-forward"></i> Flip Card
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects">Music object recognition using DL</a>  
+                                        <p></p>
+                                        <a href="https://www.linkedin.com/in/jai-kesav-k-r-400870195/"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:111119056@nitt.edu"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/nice-boi-jk"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Greeshwar.jpg">
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Greeshwar R S</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Computer Vision<br>Deep Learning<br>Embedded Systems</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                        <i class="fa fa-mail-forward"></i> Flip Card
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects">Digit recognition with point to point translation <br></a>
+                                        <p></p>
+                                        <a href="https://www.facebook.com/greeshwar.gree"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                                        <a href="https://www.linkedin.com/in/greeshwar-r-s-8930261b8"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:greeshwargree@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/greesh02"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->    
+                </div>
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Lokesh.jpg">
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Lokesh Keshav S</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Computer Vision<br>Deep Learning<br>Artificial Intelligence</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                        <i class="fa fa-mail-forward"></i> Flip Card
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <!--<a class="center profile-projects">project <br></a>-->
+                                        <p></p>
+                                        <!--<a href="https://www.facebook.com/"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>-->
+                                        <a href="https://www.linkedin.com/in/lokesh-keshav-a099a01a2/"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:keshavs.lokesh@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/dankitydanker"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->    
+                </div>
+
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Rishivanthiya.jpg">
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Rishivanthiya G R</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Embedded Systems<br>Control Systems</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                        <i class="fa fa-mail-forward"></i> Flip Card
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <!--<a class="center profile-projects">project <br></a>-->
+                                        <p></p>
+                                        <!--<a href="https://www.facebook.com/"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>-->
+                                        <a href="https://www.linkedin.com/in/rishivanthiya-g-r-79079a1a5"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:rishivanthiyagr@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/DarkRiya"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->    
+                </div>
+
+
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Saiganesh.jpg">
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Sai Ganesh S</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Machine Learning<br>Mechanics</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                        <i class="fa fa-mail-forward"></i> Flip Card
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <!--<a class="center profile-projects">project <br></a>-->
+                                        <p></p>
+                                        <a href="https://www.facebook.com/sai.ganesh.526438"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                                        <!--<a href="https://www.linkedin.com/in/"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>-->
+                                        <a href="mailto:ganeshsai123.sg@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/saiganesh000"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->    
+                </div>
+
+
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Satish.jpg">
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Satish Kumar L</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Embedded Systems</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                        <i class="fa fa-mail-forward"></i> Flip Card
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <!--<a class="center profile-projects">project <br></a>-->
+                                        <p></p>
+                                        <!--<a href="https://www.facebook.com/"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>-->
+                                        <a href="https://www.linkedin.com/in/satish-kumar-l-0780451b0/"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:satishkumarvv2002@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/Satish-Kumar-L"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->    
+                </div>
+
+
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Shrushti.jpeg">
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Shrushti Khairkar</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Image Processing<br>Electronics</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                        <i class="fa fa-mail-forward"></i> Flip Card
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <!--<a class="center profile-projects">project <br></a>-->
+                                        <p></p>
+                                        <!--<a href="https://www.facebook.com/"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>-->
+                                        <a href="http://linkedin.com/in/shrushti-khairkar-91303a1b7"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:shrushti.khairkar@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/shrushti24"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->    
+                </div>
+
+
+
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Sivvani.jpg">
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">M Sivvani</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Image Processing<br>Machine Learning<br>Embedded Systems</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                        <i class="fa fa-mail-forward"></i> Flip Card
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects">Gesture controlled robotic hand<br></a>
+                                        <p></p>
+                                        <a href="https://www.facebook.com/sivvani.muthusamy"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                                        <a href="https://www.linkedin.com/in/sivvani-muthusamy-1645401a5"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:sivvanimuthusmy15032002@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/Msivvani"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->    
+                </div>
+
+                
+
+
+
+
+
+
+
+                
+
+
+            <!-- Cards end here-->    
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div id="final-years" style="padding-top: 4rem;" class="container">
+        <div class="section">
+
+            <!--   Icon Section   -->
+            <div id="top3" class="row center">
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Nitish.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Nitish Gudapati</h3>
+                                    <p class="profession">President</p>
+                                    <p class="interest text-center">Mobile Robotics<br>Collaborative and Bio Robotics<br>Multi-Robot Systems</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects" href="projects/HuRoS.html"> HuRoS (Ongoing) <br> </a>
+                                        <a class="center profile-projects" href="projects/SPEAR.html"> SPEAR <br> </a>
+                                        <a class="center profile-projects" href="projects/Project_pepper.html"> PEPPER <br> </a>
+                                        <a class="center profile-projects" > Leader-Follower Robots <br> </a>
+                                        <p></p>
+                                        <a href="https://www.facebook.com/nitish.gudapati" target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                                        <a href="https://www.linkedin.com/in/gudapatinitish9/" target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:gudapatinitish9@gmail.com" target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/gnitish18" target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Deepak.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Deepak S V</h3>
+                                    <p class="profession">Vice President</p>
+                                    <p class="interest text-center">Mobile Robotics<br>Rehabilitation Robotics<br>Computer Vision<br>Positioning Systems</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects" href="projects/Project_pepper.html">PEPPER (Ongoing)<br></a>
+                                        <a class="center profile-projects" href="projects/SPEAR.html">SPEAR<br></a>
+                                        <a class="center profile-projects" >RF Synced Indoor Ultrasonic GPS<br></a>
+                                        <p></p>
+                                        <a href="https://www.facebook.com/deepak.swamysgrdnit"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                                        <a href="https://www.linkedin.com/in/deepak-s-v-358b50170"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:svdeepak99@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/svdeepak99"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Mukesh.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">R Mukesh Kanna</h3>
+                                    <p class="profession">Vice President</p>
+                                    <p class="interest text-center">Embedded Systems<br>Mobile Robotics</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects" href="projects/Soccer_bots.html">Soccerbots (Ongoing)<br></a>
+                                        <a class="center profile-projects" href="projects/SPEAR.html">SPEAR<br></a>
+                                        <a class="center profile-projects" href="projects/Ballbot.html">Ballbot<br></a>
+                                        <p></p>
+                                        <!--<a href=""target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>-->
+                                        <!--<a href=""target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>-->
+                                        <a href="mailto:kanna.r1999@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <!--<a href=""target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>-->
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+
+
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Harshith.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Harshith Vignesh</h3>
+                                    <p class="profession">Treasurer</p>
+                                    <p class="interest text-center">Embedded systems<br>Image Processing<br>Machine Learning</p>
+                                </div> 
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects" href="projects/Soccer_bots.html">Soccer Robots (Ongoing)<br></a>    
+                                        <a class="center profile-projects" href="projects/SRB.html">SRR<br></a>
+                                        <p></p>
+                                        <a href="https://www.facebook.com/harshith.vignesh"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                                        <a href="https://www.linkedin.com/in/harshith-vignesh-70817615b"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:vinu.mhv@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <!--<a href=""target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>-->
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Jinesh.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Jinesh R</h3>
+                                    <p class="profession">Treasurer</p>
+                                    <p class="interest text-center">Legged Robotics<br>Rehabilitation Robotics<br>Mechanics</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects" href="projects/HuRoS.html">HuRoS (Ongoing)<br></a>
+                                        <a class="center profile-projects" href="projects/SPEAR.html">SPEAR<br></a>
+                                        <p></p>
+                                        <a href="https://m.facebook.com/profile.php?id=100007571207027"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                                        <a href="https://www.linkedin.com/in/jinesh-r-38a24a172"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:jineshrs2398@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/jineshrs2398" target="_blank"class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Dharun.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Dharun Chagarlamudi</h3>
+                                    <p class="profession">Head Workshops and Inductions</p>
+                                    <p class="interest text-center">Machine Learning<br>Image Processing<br>Mechanics</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects" href="projects/Ballbot.html">Ballbot (Ongoing)<br></a>
+                                        <a class="center profile-projects" href="projects/SRB.html">SRR<br></a>
+                                        <a class="center profile-projects" href="projects/Soccer_bots.html">Soccer Robots<br></a>
+                                        <p></p>
+                                        <a href="https://www.facebook.com/dharun.chagarlamudi"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                                        <a href="https://www.linkedin.com/in/dharun-chagarlamudi-7a6568170/"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:chagdhar@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/chagd"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Pranav.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Pranav M</h3>
+                                    <p class="profession">Head Alumini Relations</p>
+                                    <p class="interest text-center">Machine Learning<br>Reinforcement Learning<br>Control systems</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects" href="projects/Soccer_bots.html">Soccerbots (Ongoing)<br></a>
+                                        <p></p>
+                                        <!--a href=""target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a-->
+                                        <a href="https://www.linkedin.com/in/pranav-mani-09782a185"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:pranavmani99@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <!--a href=""target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a-->
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Abdur.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Abdur Rahman Kalim</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Control<br>Image Processing<br>Deep Learning</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                        <i class="fa fa-mail-forward"></i> Flip Card
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects"> Open Quad (Ongoing)<br></a>
+                                        <a class="center profile-projects" href="projects/SRB.html">SRR<br></a>
+                                        <a class="center profile-projects" href="projects/Project_pepper.html">PEPPER<br></a>
+                                        <a class="center profile-projects" >Ball following Self Balancing Robot<br></a>
+                                        <p></p>
+                                        <a href="https://www.facebook.com/abdurrahman.kalim"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                                        <a href="https://www.linkedin.com/in/abdur-rahman-kalim-876899118"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:abdur.rahman.kalim@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://www.github.com/arkalim"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+
+                <div class="card-container manual-flip col s12 m6 l4">                
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Athithya.jpeg"/>
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Athithiya Kumar N B</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Control<br>Kinematics and Dynamics of Manipulators</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                        <i class="fa fa-mail-forward"></i> Flip Card
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects" href="projects/HuRoS.html">HuRoS (Ongoing)<br></a>
+                                        <p></p>
+                                        <a href="https://www.facebook.com/athithyaak"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                                        <a href="www.linkedin.com/in/ athithya-kumar-a17828185"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:athithyakumar.mech@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <!--a href=""target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a-->
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->                
+                </div>
+
+                <div class="card-container manual-flip col s12 m6 l4">                
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Avinash.jpg"/>
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Avinash S</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Image Processing<br>Embedded Systems<br>Recurrent Neural Networks</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                        <i class="fa fa-mail-forward"></i> Flip Card
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects" href="projects/Project_pepper.html">PEPPER (Ongoing)</a>
+                                        <p></p>
+                                        <a href="https://www.facebook.com/profile.php?id=100017631003276"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                                        <!--a href=""target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a-->
+                                        <a href="mailto:avinashsenthil029@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/avinashrox"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->                
+                </div>
+
+
+                
+
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Koushik.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Koushik Kumaran</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Rehabilitive Robotics<br>Soft Robotics<br>Control Systems</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects" href="projects/Soccer_bots.html">Soccer Robots (Ongoing)<br></a>
+                                        <a class="center profile-projects" href="projects/SPEAR.html">SPEAR<br></a>
+                                        <p></p>
+                                        <a href="https://www.facebook.com/koushik.kumaran.376"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                                        <!--<a href=""target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>-->
+                                        <a href="mailto:koushikkumaran52@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/bubblydiddles"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+
+                <!--div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Aquif.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Mohd Aquif</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Mobile Robotics</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects" href="projects/HuRoS.html">HuRoS (Ongoing)<br></a>
+                                        <a class="center profile-projects" href="projects/SRB.html">SRR<br></a>
+                                        <a class="center profile-projects" href="projects/Ballbot.html">Ballbot<br></a>
+                                        <p></p>
+                                        <a href="https://www.linkedin.com/in/mohd-aquif-7a8b11190"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:aquiflock5@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div-->
+
+                
+
+                
+
+                
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Sarthak.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Sarthak Narayan</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Deep Learning<br>Machine Learning<br>Computer Vision</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects"> Open Quad (Ongoing)<br></a>
+                                        <a class="center profile-projects" href="projects/SRB.html">SRR<br></a>
+                                        <a class="center profile-projects" href="projects/Project_pepper.html">PEPPER<br></a>
+                                        <a class="center profile-projects" >Object Flow Pattern Recognition System<br></a>
+                                        <p></p>
+                                        <a href="https://www.facebook.com/profile.php?id=100017676760893"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                                        <a href="https://www.linkedin.com/in/sarthak-narayan-40b927164/"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:sarthak.narayang@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/SarthakNarayan/First-Repo"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="third-years" style="padding-top: 4rem;" class="container">
+        <div class="section">
+
+            <div id="top3" class="row center">
+
+                <!--div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Monish.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">A Monish Prabhu</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Computer Vision<br>Machine Learning</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects" href="projects/Ballbot.html">Ballbot (Ongoing)<br></a>
+                                        <a class="center profile-projects" > Object flow Gestute Detection <br></a>
+                                        <p></p>
+                                        <a href="https://www.facebook.com/monish.anand.16"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                                        <a href="www.linkedin.com/in/monish-prabhu-36172b17a"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:123monish123@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/monishTechy"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div-->
+
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Akesh.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Akesh M</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Mechanics<br>Path planning</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects" href="projects/Soccer_bots.html">Soccerbots (Ongoing)<br></a>
+                                        <a class="center profile-projects" >3D Scanner<br></a>
+                                        <p></p>
+                                        <!--<a href=""target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>-->
+                                        <!--<a href="https://www.linkedin.com/in/deepak-s-v-358b50170"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>-->
+                                        <a href="mailto:Akeshnevergiveup@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/Akesh-M"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Akshat.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Akshat Khandelwal</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Machine Learning<br>Mobile Robotics<br>Embedded Systems</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects" href="projects/Soccer_bots.html">Soccerbots (Ongoing)<br></a>
+                                        <a class="center profile-projects">Self Balancing Robot<br></a>
+                                        <p></p>
+                                        <a href="https://m.facebook.com/akshat.khandelwal.3363"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                                        <a href="www.linkedin.com/in/kakshat1205"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:kakshat1205@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/kakshat1205"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Gaurav.jpeg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Gaurav Nagotanekar</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Computer Vision<br>Image Processing<br>Machine Learning</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects"> Open Quad (Ongoing)<br></a>
+                                        <a class="center profile-projects"> Indoor self navigating obstacle avoiding car<br></a>
+                                        <p></p>
+                                        <!--<a href=""target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>-->
+                                        <a href="https://www.linkedin.com/in/gaurav-n-58622aab/"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:gauravnagotanekar@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/Gaurav4857"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+
+                <!--div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Gukan.jpeg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Gukan V</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Image Processing<br>Mechanics</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects" href="projects/Project_pepper.html">PEPPER (Ongoing)<br></a>
+                                        <p></p>
+                                        <a href="mailto:gukannly@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div-->
+
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Hemangani.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Hemangani N</h3>
+                                    <p class="profession">SAC Coordinator</p>
+                                    <p class="interest text-center">Computer Vision<br>Mobile Robotics</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects">Pepper (Ongoing)<br>Open Quad<br></a>
+                                        <a class="center profile-projects">Automatic Goal Repositioning<br></a>
+                                        <p></p>
+                                        <a href="https://www.facebook.com/Hemangani"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                                        <a href="https://www.linkedin.com/in/hemangani-n-910a3716b/"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:nhemangani@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/HEMANGANI"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/KailashJagadeesh.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Kailash Jagadeesh</h3>
+                                    <p class="profession">SAC Coordinator</p>
+                                    <p class="interest text-center">Embedded systems<br> Image processing<br>Machine Learning</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects">Pepper (Ongoing) <br>Open Quad<br></a>
+                                        <p></p>
+                                        <a href="https://www.facebook.com/kailash.jagadeesh"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                                        <a href="https://www.linkedin.com/in/kailash-j-b01223150"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:meetkailash2000@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/kailash-jagadeesh"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Loahit.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Loahit K</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Embedded Systems</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects" href="/projects/Project_pepper.html">PEPPER (Ongoing)<br></a>
+                                        <p></p>
+                                        <a href="https://www.facebook.com/profile.php?id=100007403794275"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                                        <!--<a href=""target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>-->
+                                        <a href="mailto:loahit5101@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/Loahit5101"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Nilendu.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Nilendu Ganguli</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Anthrobotics<br>Mobile Robotics<br>Robot Kinematics<br>Human-Robot Interaction</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects" href="projects/HuRoS.html">HuRoS (Ongoing)<br></a>
+                                        <a class="center profile-projects">Ball Balancing Stewart Platform<br></a>
+                                        <p></p>
+                                        <a href="https://www.facebook.com/nilendu.ganguli.7"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                                        <a href="https://www.linkedin.com/in/nilendu-ganguli-017879122"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:nilenduganguli999@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/Nilendu999"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Pramoth.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Pramoth Arun</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Deep Learning<br>Machine Learning<br>Computer Vision</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects" href="projects/Soccer_bots.html">Soccerbots (Ongoing)<br></a>
+                                        <p></p>
+                                        <!--<a href=""target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>-->
+                                        <a href="https://www.linkedin.com/in/pramotharun/"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:pramotharun2.72@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/pramotharun"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Manimozhi.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">S Manimozhi</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Image Processing<br>Mechanics<br>Control Systems<br>Humanoid Robotic Systems</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects" href="projects/HuRoS.html">HuRoS (Ongoing)<br></a>
+                                        <p></p>
+                                        <!--<a href=""target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>-->
+                                        <!--<a href=""target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>-->
+                                        <a href="mailto:manimozhisekar4@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/ManimozhiS/Mani.git"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Sathya.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Sathya Prakash</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Mechanics<br>Image Processing</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects" href="projects/Soccer_bots.html">Soccerbots (Ongoing)<br></a>
+                                        <p></p>
+                                        <!--<a href=""target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>-->
+                                        <!--<a href=""target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>-->
+                                        <a href="mailto:sathyaprakashelango@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/KingArthur000"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/Shri_Kumaran.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">Shrikumaran P B</h3>
+                                    <p class="profession">Web Ops Head</p>
+                                    <p class="interest text-center">Computer Vison<br>Human Robot Interaction<br>Machine Learning</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4> 
+                                        <a class="center profile-projects">Open Quad <br></a>
+                                        <p></p>                                    
+                                        <a href="https://www.facebook.com/shrikumaran.balasubramanian"target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+                                        <a href="https://www.linkedin.com/in/shrikumaran-p-b-7b2820173/"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:pbshrikumaran@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/shrikumaran"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+                
+                <div class="card-container manual-flip col s12 m6 l4">
+                    <div class="card">
+                        <div class="front">
+                            <div class="cover">
+                                <img src="images/Background/background7.jpg" />
+                            </div>
+                            <div class="user">
+                                <img class="circle" src="images/profile/VIEKASH.jpg" />
+                            </div>
+                            <div class="content">
+                                <div class="main">
+                                    <h3 class="name">V K Viekash</h3>
+                                    <p class="profession">Member</p>
+                                    <p class="interest text-center">Computer Vision<br>Machine Learning</p>
+                                </div>
+                                <div class="footer">
+                                    <button class="btn btn-simple" onclick="rotateCard(this)">
+                                    <i class="fa fa-mail-forward"></i> Flip Card
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end front panel -->
+                        <div class="back valign-wrapper ">
+                            <div class="container ">
+                                <div class="content center">
+                                    <div class="main ">
+                                        <h4 class="center">Projects</h4>
+                                        <a class="center profile-projects" href="projects/HuRoS.html">HuRoS (Ongoing)<br></a>
+                                        <p></p>
+                                        <!--<a href=""target="_blank" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>-->
+                                        <a href="https://www.linkedin.com/in/viekash-v-6bb868131/"target="_blank" class="icon-button linkedin"><i class="fa fa-linkedin"></i><span></span></a>
+                                        <a href="mailto:vkviekash@gmail.com"target="_blank" class="icon-button envelope"><i class="fa fa-envelope"></i><span></span></a>
+                                        <a href="https://github.com/VIEKASH2001"target="_blank" class="icon-button github"><i class="fa fa-github"></i><span></span></a>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-reply"></i> Back
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end back panel -->
+                    </div>
+                    <!-- end card -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer style="padding: 0; font-size: 20px;" class="page-footer">
+        <div class="footer-copyright  grey darken-4">
+            <div class="container">
+                Site designed and developed by <a href="Webteam.html">
+               RMI Webteam</a>
+        </div>
+    </footer>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+
+    <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+
+
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            loop: 'true',
+            slidesPerView: 3,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            spaceBetween: 30,
+            breakpoints: {
+                // when window width is <= 320px
+                600: {
+                    slidesPerView: 1,
+                    spaceBetweenSlides: 10
+                },
+                // when window width is <= 480px
+                992: {
+                    slidesPerView: 2,
+                    spaceBetweenSlides: 20
+                },
+                // when window width is <= 640px
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetweenSlides: 30
+                }
+            }
+        });
+        var width = parseInt($(window).width())
+        if (width < 600) {
+            $('h1').css({
+                'fontSize': (width * 0.0102) + 'rem'
+            });
+        }
+    </script>
+
+    <!--
+#flip li:hover .info {
+    transform: rotateY(180deg);
+}
+/* Simply rotate when hovering */
+#flip li:hover .pic {
+    transform: rotateY(180deg);
+}
+ -->
+    <script type="text/javascript">
+        $().ready(function() {
+            $('[rel="tooltip"]').tooltip();
+        });
+
+        function rotateCard(btn) {
+            var $card = $(btn).closest('.card-container');
+            console.log($card);
+            if ($card.hasClass('hover')) {
+                $card.removeClass('hover');
+            } else {
+                $card.addClass('hover');
+            }
+        }
+    </script>
+    <script type="text/javascript">
+        $('#1').click(function(e) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: 0,
+                scrollLeft: 0
+            }, 100);
+        });
+        $('#2').click(function(e) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: 0,
+                scrollLeft: 0
+            }, 100);
+        });
+        $('#3').click(function(e) {
+            e.preventDefault();
+
+            $('html, body').animate({
+                scrollTop: 0,
+                scrollLeft: 0
+            }, 100);
+        });
+    </script>
+    <!--
+<script type="text/javascript">
+    //$('#tabs-swipe-demo').tabs({ 'swipeable': true });
+        $(function() {
+      //Enable swiping...
+      $("#final-years").swipe( {
+        //Generic swipe handler for all directions
+        swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+          if (direction == 'left')
+          {
+               $('#tabs-swipe-demo').tabs('select_tab', 'third-years');
+          }
+             },
+        //Default is 75px, set to 0 for demo so any distance triggers swipe
+         threshold:0
+      });
+           $("#third-years").swipe( {
+        //Generic swipe handler for all directions
+        swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+          if (direction == 'left')
+          {
+          $('#tabs-swipe-demo').tabs('select_tab', 'second-years');
+          }
+          else if(direction == 'right')
+          {
+             $('#tabs-swipe-demo').tabs('select_tab', 'final-years');
+          }
+        },
+        //Default is 75px, set to 0 for demo so any distance triggers swipe
+         threshold:0
+      });
+             $("#second-years").swipe( {
+        //Generic swipe handler for all directions
+        swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+             if(direction == 'right')
+          {
+              $('#tabs-swipe-demo').tabs('select_tab', 'third-years');
+          }
+        },
+        //Default is 75px, set to 0 for demo so any distance triggers swipe
+         threshold:0
+      });
+    });
+
+</script>
+-->
+
+</body>
+
+</html>
