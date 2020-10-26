@@ -2,6 +2,20 @@
 
 ## Version Updates
 
+### To be done
+
+* Modify the members and alumni layout.
+* Update the events with previous three years' data.
+* Trailer for the RMI YouTube channel linked to the website.
+* Change the project tiles layout in the index page. (Nobody cares to scroll through in the present scenario)
+
+### November'20 Release (v1.1.0)
+
+* Updated member and Webteam details
+* Added InHotts details (Path planner and Quiz to be added)
+* Added past alumni members' details from the beginning of the club
+* (Have to add new projects)
+
 ### November'19 Release (v1.0.1)
 
 * Resolved Youtube API bugs.
@@ -21,10 +35,3 @@
 * Modified the CSS for Misalignment bugs throughout the webpages.
 * Created separate youtube playlist for each project and linked to the website.
   (hereafter ensure that all your project videos are in their respective playlists)
-
-### Next Update
-
-* Dark mode version to be released in next update.
-* Update the events with previous three years' data.
-* Trailer for the RMI YouTube channel linked to the website.
-* Change the project tiles layout in the index page. (Nobody cares to scroll through in the present scenario)
