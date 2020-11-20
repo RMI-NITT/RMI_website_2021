@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
-    <title>Soccer Bots</title>
+    <title>SPEAR</title>
 
     <!-- CSS  -->
     <link rel="shortcut icon" type="image/x-icon" href="../rmi.ico" />
@@ -66,38 +66,30 @@
                 <div class="col s12 center">
                     <h3><i class="mdi-content-send brown-text"></i></h3>
                     <div class="section">
-                        <h1 class="header center text-lighten-2">Soccer Bots</h1>
-                        <h5 class="header"><i>Play Soccer the Engineers’ Way</i></h5>
+                        <h1 class="header center text-lighten-2">SPEAR</h1>
+                        <h5 class="header"><i>Soft Pneumatic EMG-Assisted Rehabilitation</i></h5>
                     </div>
                     <div class="divider"></div>
                     <div class="section">
-                        <p class="justify-align light">
-                            The system comprises of a set of four omnidirectional mobile robots (two per team) which is endowed with the ability to play soccer. These robots can perform various functions including passing, shooting, dribbling and goalkeeping.
+                        <p class="justify-align light">        
+                            Stroke patients often suffer from foot drop, a gait abnormality caused due to the 
+                            paralysis of the anterior portion muscles of the lower leg, causing an inability or
+                            impaired ability to raise the foot at the ankle joint. This condition leads to extremities 
+                            of the foot being dragged along the ground while walking, causing tripping and other accidents.
+                            Braces or splints that fit into shoes are prescribed to help hold the foot in a normal position.
+                            For rehabilitation, most patients are trained to walk with canes, and therapists prescribe
+                            physiotherapy for a series of short, intensive sessions. These solutions are expensive and 
+                            slow processes as they require the presence of skilled personnel. 
                         </p>
-                        <p class="justify-align light">
-                            They are equipped with indigenous mechanisms for shooting and dribbling which enhance their ability to play the game. The master computer localises the robots using feedback from an overhead camera. The master communicates the control variables to its
-                            slaves using wifi. This multi agent system is used to test algorithms in path planning and artificial intelligence.
-                        </p>
-                        <p class="justify-align light">
-                            <b>Robot Design:</b> <br> The robot is a 3 wheel omnidirectional robot. The chassis is made up of acrylic, with aluminium L clamps to couple different parts.
-                        </p>
-                        <p class="justify-align light">
-
-                            <b>Shooting and Dribbling Mechanism:</b>
-                            <br> The shooting mechanism is actuated using a solenoid kicker powered using a boost converter. The dribbling mechanism consists of a dribbler actuated using a 200 RPM DC motor through a gear system. The dribbler induces a
-                            backspin on the ball, so that the ball is within the robot’s control..
-                        </p>
-                        <p class="justify-align light">
-                            <b>Control:</b> <br> The kinematic model of the robot was found from existing literature and was used to control the robot.The system is partly autonomous - one robot autonomously goalkeeps whereas the other is manually controlled.
-                        </p>
-                        <p class="justify-align light">
-
-                            <b>Robot and Ball Localisation:</b><br> To find the present location of the robots and the ball, image processing was done in OpenCV. A wide angle camera was mounted at a height of 2.3m from the ground. A pattern was fixed
-                            on top of every robot to uniquely identify it. The image from the camera is first converted to a gray image, thresholded and the required contours are chosen based on area.
-                            <br> Ball localisation is done by converting the image from the camera to a HSV image and finding the position of the ball using HSV value of the ball’s colour (The ball used is lemon yellowish and its HSV value is first calculated
-                            and given to the algorithm for it to detect the ball from the full image). Ball’s trajectory is also needed for autonomous goal keeping. The trajectory is found by finding the position of the ball in 2 consecutive frames and
-                            extending the line formed by it..
-
+                        <p class="justify-align light">       
+                            Utilising advancements in robotics we aim to aid in combating this difficulty by developing 
+                            a Soft Robotic Active Ankle-Foot Orthosis (AFO). The AFO is designed to augment the human 
+                            musculoskeletal system. It is actuated using pneumatically driven McKibben Muscles (Pneumatic
+                            Artificial Muscles). They are cost-effective and lightweight, offering a significant advantage 
+                            over Motor Driven orthoses. The orthosis is controlled using Electromyograph (EMG) signals from
+                            the muscles involved in the motion of the ankle. We aim to integrate Machine Learning and utilise
+                            Artificial Neural Networks to provide a more accurate and personalised response of the
+                            assistive system as a future implementation.
                         </p>
                     </div>
                 </div>
@@ -144,16 +136,22 @@
         </div>
         <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:500px;overflow:hidden;">
             <div>
-                <img data-u="image" src="../images/projectpics/Soccer_bots/pic1.jpg" />
+                <img data-u="image" src="../images/projectpics/SPEAR/pic1.jpg" />
             </div>
             <div>
-                <img data-u="image" src="../images/projectpics/Soccer_bots/pic2.jpg" />
+                <img data-u="image" src="../images/projectpics/SPEAR/pic2.jpg" />
             </div>
             <div>
-                <img data-u="image" src="../images/projectpics/Soccer_bots/pic3.jpg" />
+                <img data-u="image" src="../images/projectpics/SPEAR/pic3.jpg" />
             </div>
             <div>
-                <img data-u="image" src="../images/projectpics/Soccer_bots/pic4.jpg" />
+                <img data-u="image" src="../images/projectpics/SPEAR/pic4.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="../images/projectpics/SPEAR/pic5.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="../images/projectpics/SPEAR/pic6.jpg" />
             </div>
         </div>
         <!-- Bullet Navigator -->
@@ -176,18 +174,19 @@
             </div>
         </div>
     </div>
+    
     <div class="container">
-            <div class="row center">
-                    <!--div class="col s12 l12 m12 center" id="video_wrapper">
-                        <iframe width="420" height="315" src="https://www.youtube.com/watch?v=ejuZ6P_VMMI&feature=youtu.be"></iframe> >
-                        <div id="muteYouTubeVideoPlayer"></div> 
-                    </div-->
-                <div class="video-container">
-                    <iframe class="myIframe" src="https://www.youtube.com/embed/videoseries?list=PL44ElmNkyTvCasM1oPJU2kZeiFyv6zk-X&autoplay=0&mute=1&rel=0&loop=1&shuffle=1" 
-                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="video-container iframe"></iframe> 
-                </div> 
-            </div>
+        <div class="row center">
+            <!--div class="col s12 l12 m12 center" id="video_wrapper">
+                <iframe width="420" height="315" src="https://www.youtube.com/watch?v=ejuZ6P_VMMI&feature=youtu.be"></iframe> >
+                <div id="muteYouTubeVideoPlayer"></div> 
+            </div-->
+            <div class="video-container">
+                <iframe class="myIframe" src="https://www.youtube.com/embed/videoseries?list=PL44ElmNkyTvCRuWAIcXDtp5S97rujg1kM&autoplay=0&mute=1&rel=0&loop=1&shuffle=1" 
+                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="video-container iframe"></iframe> 
+            </div> 
         </div>
+    </div>
 
     <!-- Member working on the project -->
     <div class="container">
@@ -204,120 +203,21 @@
     </div>
 
 
-    <div class="container members">
+<div class="container members">
         <div class="row center">
-
-            <div class="col  s4 m3 l2">
-                <div class="card" style="box-shadow: none;">
-                    <div class="card-image">
-                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Bala.jpg">
-                    </div>
-                    <div class="card-content" style="padding: 8px;">
-                        <h6 style="font-size: 1.25rem">Baladhurgesh B P</h6>
-                    </div>
-                </div>
-            </div>
             
-            <div class="col  s4 m3 l2">
+            <div class="col s4 m3 l2">
                 <div class="card" style="box-shadow: none;">
                     <div class="card-image">
-                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Madhan.jpg">
+                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Nitish.jpg">
                     </div>
                     <div class="card-content" style="padding: 8px;">
-                        <h6 style="font-size: 1.25rem">Madhan </h6>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col  s4 m3 l2">
-                <div class="card" style="box-shadow: none;">
-                    <div class="card-image">
-                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/naveed.jpg">
-                    </div>
-                    <div class="card-content" style="padding: 8px;">
-                        <h6 style="font-size: 1.25rem">Mohamed Naveed G </h6>
+                        <h6 style="font-size: 1.25rem">Nitish Gudapati</h6>
                     </div>
                 </div>
             </div>
 
             <div class="col s4 m3 l2">
-                <div class="card" style="box-shadow: none;">
-                    <div class="card-image">
-                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Nand.jpg">
-                    </div>
-                    <div class="card-content" style="padding: 8px;">
-                        <h6 style="font-size: 1.25rem">Nanda Kishore V</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s4 m3 l2">
-                <div class="card" style="box-shadow: none;">
-                    <div class="card-image">
-                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Rajiv.jpg">
-                    </div>
-                    <div class="card-content" style="padding: 8px;">
-                        <h6 style="font-size: 1.25rem">Rajiv</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s4 m3 l2">
-                <div class="card" style="box-shadow: none;">
-                    <div class="card-image">
-                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Suhail.jpg">
-                    </div>
-                    <div class="card-content" style="padding: 8px;">
-                        <h6 style="font-size: 1.25rem">S Muhammad Suhail</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col  s4 m3 l2">
-                <div class="card" style="box-shadow: none;">
-                    <div class="card-image">
-                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Srikrishna.jpeg">
-                    </div>
-                    <div class="card-content" style="padding: 8px;">
-                        <h6 style="font-size: 1.25rem">Srikrishna S</h6>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col  s4 m3 l2">
-                <div class="card" style="box-shadow: none;">
-                    <div class="card-image">
-                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Naveen.png">
-                    </div>
-                    <div class="card-content" style="padding: 8px;">
-                        <h6 style="font-size: 1.25rem">Naveen S</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col  s4 m3 l2">
-                <div class="card" style="box-shadow: none;">
-                    <div class="card-image">
-                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Akshaya.jpg">
-                    </div>
-                    <div class="card-content" style="padding: 8px;">
-                        <h6 style="font-size: 1.25rem">Akshaya S</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col  s4 m3 l2">
-                <div class="card" style="box-shadow: none;">
-                    <div class="card-image">
-                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Harshith.jpg">
-                    </div>
-                    <div class="card-content" style="padding: 8px;">
-                        <h6 style="font-size: 1.25rem">Harshith Vignesh</h6>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col  s4 m3 l2">
                 <div class="card" style="box-shadow: none;">
                     <div class="card-image">
                         <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Koushik.jpg">
@@ -328,7 +228,18 @@
                 </div>
             </div>
 
-            <div class="col  s4 m3 l2">
+            <div class="col s4 m3 l2">
+                <div class="card" style="box-shadow: none;">
+                    <div class="card-image">
+                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Deepak.jpg">
+                    </div>
+                    <div class="card-content" style="padding: 8px;">
+                        <h6 style="font-size: 1.25rem">Deepak S V</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s4 m3 l2">
                 <div class="card" style="box-shadow: none;">
                     <div class="card-image">
                         <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Mukesh.jpg">
@@ -339,18 +250,28 @@
                 </div>
             </div>
 
-            <div class="col  s4 m3 l2">
+            <div class="col s4 m3 l2">
                 <div class="card" style="box-shadow: none;">
                     <div class="card-image">
-                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Pranav.jpg">
+                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Jinesh.jpg">
                     </div>
                     <div class="card-content" style="padding: 8px;">
-                        <h6 style="font-size: 1.25rem">Pranav M</h6>
+                        <h6 style="font-size: 1.25rem">Jinesh R</h6>
                     </div>
                 </div>
             </div>
-            
-        
+
+            <!--div class="col s4 m3 l2">
+                <div class="card" style="box-shadow: none;">
+                    <div class="card-image">
+                        <img class="circle" style="border-radius: 50%; border: 4px solid #414141" src="../images/profile/Himadri.jpg">
+                    </div>
+                    <div class="card-content" style="padding: 8px;">
+                        <h6 style="font-size: 1.25rem">Himadri Poddar</h6>
+                    </div>
+                </div>
+            </div--> 
+
         </div>
     </div>
 
@@ -363,7 +284,6 @@
     </footer>
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
     <!-- Floating action button -->
     <!--     <div class="fixed-action-btn">
         <a class="btn-floating btn-large red">
@@ -436,8 +356,6 @@
             "height": w
         })
     </script>
-
-
     <!--
     <script>
         // 1. This code loads the IFrame Player API code asynchronously.
@@ -507,7 +425,7 @@
             }
             player = new YT.Player('muteYouTubeVideoPlayer', {
                 // YouTube Video ID
-                videoId: 'hr0JUzrCq2U',
+                videoId: 'KEZAagrPsK8',
                 width: width,
                 height: height,
                 playerVars: {
@@ -527,7 +445,7 @@
                     // Hide video controls when playing
                     autohide: 0,
                     // Hack to make the player loop over a single video again
-                    playlist: 'hr0JUzrCq2U'
+                    playlist: 'ejuZ6P_VMMI'
                 },
                 events: {
                     onReady: function(e) {
