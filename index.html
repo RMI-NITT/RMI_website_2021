@@ -96,9 +96,13 @@
                 </div-->
                 
                 <div class="row left">
-                    <h1 id="rmi-main" class="header left col s12  " style="color: #414141; font-weight: bold; margin-top: 10; margin-bottom: 10; padding: 10;">
-                        ROBOTICS AND <br> MACHINE INTELLIGENCE
-                    </h1>
+                    <h2 id="rmi-main" class="header left col s12  " style="color: #414141; font-weight: bold; margin-top: 10; margin-bottom: 10; padding: 10;">
+                        ROBOTICS AND MACHINE INTELLIGENCE (RMI)
+                    </h2>
+                   
+                    <h5 id="rmi-main" class="header left col s12  " style="color: #989898; font-weight: bold; margin-top: 10; margin-bottom: 10; padding: 10;">
+                        Official Robotics Club of NIT Trichy
+                    </h5>
                     <h6 class="header col s12" style="color: #414141; margin-top: 10; margin-bottom: 10; padding: 10;">
                         <p class="light" align="justify">
                             Robotics and Machine Intelligence (RMI), is the official robotics and technical research club of NIT Trichy. 
@@ -740,8 +744,9 @@
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
         <!-- Add Arrows -->
-        <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        
     </div>
 
     <div class="parallax-container valign-wrapper">
@@ -1356,17 +1361,24 @@
             });
         });
     </script>
+    
     <!-- Swiper JS -->
     <script src="js/swiper.min.js"></script>
+    
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper('.swiper-container', {
+         
             pagination: '.swiper-pagination',
             paginationClickable: true,
+
             loop: 'true',
             slidesPerView: 3,
-            nextButton: '.swiper-button-next',
-            prevButton: '.swiper-button-prev',
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            paginationType: 'progress',
             spaceBetween: 30,
             breakpoints: {
                 // when window width is <= 320px
@@ -1386,6 +1398,8 @@
                 }
             }
         });
+
+        swiper.update();
 
         var width = parseInt($(window).width())
         if (width < 600) {
